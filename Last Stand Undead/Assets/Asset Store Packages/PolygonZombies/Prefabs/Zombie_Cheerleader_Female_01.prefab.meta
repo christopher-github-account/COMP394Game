@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 40f2c49e8d9d1ff48b8e1b835f867467
+timeCreated: 1540522578
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 131930
+  packageName: POLYGON City Zombies - Low Poly 3D Art by Synty
+  packageVersion: 1.6.2
+  assetPath: Assets/PolygonZombies/Prefabs/Zombie_Cheerleader_Female_01.prefab
+  uploadId: 662780

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 458ef1e16bc1671488a809f8dc1da639
+timeCreated: 1540522589
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 131930
+  packageName: POLYGON City Zombies - Low Poly 3D Art by Synty
+  packageVersion: 1.6.2
+  assetPath: Assets/PolygonZombies/Prefabs/Zombie_Firefighter_Male_01.prefab
+  uploadId: 662780

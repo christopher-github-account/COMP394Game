@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: bad237858ca589a4186fb7c3f5b31fff
+timeCreated: 1539895569
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 131930
+  packageName: POLYGON City Zombies - Low Poly 3D Art by Synty
+  packageVersion: 1.6.2
+  assetPath: Assets/PolygonZombies/Materials/PolygonZombie_Texture_01_B.mat
+  uploadId: 662780

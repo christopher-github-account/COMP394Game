@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 6ae5077a81db9664189c9c2b3d7a318b
+timeCreated: 1541107280
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 131930
+  packageName: POLYGON City Zombies - Low Poly 3D Art by Synty
+  packageVersion: 1.6.2
+  assetPath: Assets/PolygonZombies/Prefabs/SM_Gib_LowerArm_01.prefab
+  uploadId: 662780

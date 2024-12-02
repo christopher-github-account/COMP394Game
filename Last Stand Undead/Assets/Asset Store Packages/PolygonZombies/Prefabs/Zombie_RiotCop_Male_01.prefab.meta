@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 6fcbd79c974c0b24291c03a4787584fe
+timeCreated: 1540522619
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 131930
+  packageName: POLYGON City Zombies - Low Poly 3D Art by Synty
+  packageVersion: 1.6.2
+  assetPath: Assets/PolygonZombies/Prefabs/Zombie_RiotCop_Male_01.prefab
+  uploadId: 662780

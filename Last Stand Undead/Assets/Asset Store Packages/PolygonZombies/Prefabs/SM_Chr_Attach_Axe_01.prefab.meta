@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 96e0ac7f8deea1844a9e56140df02bb4
+timeCreated: 1540780490
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 131930
+  packageName: POLYGON City Zombies - Low Poly 3D Art by Synty
+  packageVersion: 1.6.2
+  assetPath: Assets/PolygonZombies/Prefabs/SM_Chr_Attach_Axe_01.prefab
+  uploadId: 662780

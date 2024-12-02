@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: bd73e194152434441b48c1dbb42c6d08
+timeCreated: 1540938740
+licenseType: Store
+ShaderImporter:
+  defaultTextures:
+  - _Texture: {fileID: 2800000, guid: 84508b93f15f2b64386ec07486afc7a3, type: 3}
+  - _Blood: {fileID: 2800000, guid: 84508b93f15f2b64386ec07486afc7a3, type: 3}
+  - _Emissive: {fileID: 2800000, guid: 84508b93f15f2b64386ec07486afc7a3, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 131930
+  packageName: POLYGON City Zombies - Low Poly 3D Art by Synty
+  packageVersion: 1.6.2
+  assetPath: Assets/PolygonZombies/Shaders/POLYGON_Zombies.shader
+  uploadId: 662780
