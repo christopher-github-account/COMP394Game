@@ -423,6 +423,8 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.29f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.29f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/EnemyWaveTracker.cs"
+"Assets/KillsTracker.cs"
+"Assets/RoundsTracker.cs"
 "Assets/Scripts/ActionStates/ActionBaseState.cs"
 "Assets/Scripts/ActionStates/ActionStateManager.cs"
 "Assets/Scripts/ActionStates/DefaultState.cs"

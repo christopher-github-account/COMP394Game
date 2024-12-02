@@ -1528,7 +1528,7 @@ GameObject:
   - component: {fileID: 8954188399392638035}
   m_Layer: 0
   m_Name: Zombie_Biker_Male_01
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1828,6 +1828,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4c59490568db214c8e7d9a5fa4b1eed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemiesKilled: 0
 --- !u!1 &1170383170512236
 GameObject:
   m_ObjectHideFlags: 0
