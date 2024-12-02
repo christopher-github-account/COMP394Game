@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 2301c6b35b40a2545a722efb1d7b9805
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250164
+  packageName: PowerUp Arcade Arsenal
+  packageVersion: 1.0
+  assetPath: Assets/PowerUp_Arcade_Arsenal/prefabs/powerup_heart.prefab
+  uploadId: 583918

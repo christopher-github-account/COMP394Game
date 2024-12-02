@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 552bf748153a13a4e9569836327e5ded
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250164
+  packageName: PowerUp Arcade Arsenal
+  packageVersion: 1.0
+  assetPath: Assets/PowerUp_Arcade_Arsenal/particles/collect_particles.prefab
+  uploadId: 583918

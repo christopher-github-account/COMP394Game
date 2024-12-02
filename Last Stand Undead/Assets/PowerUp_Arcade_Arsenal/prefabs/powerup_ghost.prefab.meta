@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 50bb4fadaa6ee5846a936c7091fba92a
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250164
+  packageName: PowerUp Arcade Arsenal
+  packageVersion: 1.0
+  assetPath: Assets/PowerUp_Arcade_Arsenal/prefabs/powerup_ghost.prefab
+  uploadId: 583918

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f19313894ea0eb44fa0cc0c5aa9a323c
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250164
+  packageName: PowerUp Arcade Arsenal
+  packageVersion: 1.0
+  assetPath: Assets/PowerUp_Arcade_Arsenal/prefabs/powerup_ammo.prefab
+  uploadId: 583918

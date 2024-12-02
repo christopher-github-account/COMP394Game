@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a499c4c6239b6834ea1040e4301d49cc
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250164
+  packageName: PowerUp Arcade Arsenal
+  packageVersion: 1.0
+  assetPath: Assets/PowerUp_Arcade_Arsenal/particles/idle_particles.prefab
+  uploadId: 583918

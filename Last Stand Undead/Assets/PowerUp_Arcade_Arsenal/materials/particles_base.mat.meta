@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: aefcf42ccbde0a14faf96553b8222d75
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250164
+  packageName: PowerUp Arcade Arsenal
+  packageVersion: 1.0
+  assetPath: Assets/PowerUp_Arcade_Arsenal/materials/particles_base.mat
+  uploadId: 583918

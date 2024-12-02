@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: a2132fa62a8a3ff40bdcd7587a794206
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250164
+  packageName: PowerUp Arcade Arsenal
+  packageVersion: 1.0
+  assetPath: Assets/PowerUp_Arcade_Arsenal/scripts/PAA_particleTrigger.cs
+  uploadId: 583918

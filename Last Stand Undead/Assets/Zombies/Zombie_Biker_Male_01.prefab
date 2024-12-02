@@ -1527,6 +1527,7 @@ GameObject:
   - component: {fileID: 2250891592163111106}
   - component: {fileID: 8954188399392638035}
   - component: {fileID: -4122418706732426521}
+  - component: {fileID: -2237539290763137966}
   m_Layer: 0
   m_Name: Zombie_Biker_Male_01
   m_TagString: Enemy
@@ -1842,6 +1843,44 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca8968d851408474088117d60def7fab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxHealth: 3
+  currentHealth: 0
+--- !u!114 &-2237539290763137966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1164828658887116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5fac5b722805654d9f46c97b835f880, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemList:
+  - {fileID: 8697549944748559688, guid: 053432757c6e4e146b5690d206887180, type: 3}
+  - {fileID: 2219516473597977274, guid: 017b64542bde8014899b2c6f4e6a4d2c, type: 3}
+  - {fileID: 1901095524244508959, guid: d8f56cbcb1ea23c46af4866567074436, type: 3}
+  - {fileID: 3822640536892206619, guid: 8f7aa2d0eb19d044ca615370d4bcaf7c, type: 3}
+  - {fileID: 2493840364990635728, guid: a03cd5ea56dbc044ead13895eca6749f, type: 3}
+  _PowerUpEvents:
+  - EventName: SpawnPowerUp
+    DropChance: 0.4
+    PowerUpEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: -2237539290763137966}
+          m_TargetAssemblyTypeName: ItemDrop, Assembly-CSharp
+          m_MethodName: DropItem
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1170383170512236
 GameObject:
   m_ObjectHideFlags: 0

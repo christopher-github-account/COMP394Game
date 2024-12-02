@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4950fa70140870a4e8ea4fb5c3d54670
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250164
+  packageName: PowerUp Arcade Arsenal
+  packageVersion: 1.0
+  assetPath: Assets/PowerUp_Arcade_Arsenal/prefabs/powerup_shield.prefab
+  uploadId: 583918

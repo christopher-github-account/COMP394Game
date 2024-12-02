@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e57ca816cb7b23441bf9c7f989925b91
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250164
+  packageName: PowerUp Arcade Arsenal
+  packageVersion: 1.0
+  assetPath: Assets/PowerUp_Arcade_Arsenal/prefabs/powerup_key.prefab
+  uploadId: 583918
