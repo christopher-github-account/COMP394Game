@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.VFX;
 
 public class WeaponManager : MonoBehaviour
 {
@@ -21,7 +22,7 @@ public class WeaponManager : MonoBehaviour
     WeaponRecoil recoil;
 
     Light muzzleFlashLight;
-    ParticleSystem muzzleFlashParticles;
+    VisualEffect muzzleFlashVFX;
     float lightIntensity;
     [SerializeField] float lightReturnSpeed = 20f;
 
@@ -35,7 +36,7 @@ public class WeaponManager : MonoBehaviour
         muzzleFlashLight = GetComponentInChildren<Light>();
         lightIntensity = muzzleFlashLight.intensity;
         muzzleFlashLight.intensity = 0;
-        muzzleFlashParticles = GetComponentInChildren<ParticleSystem>();
+        muzzleFlashVFX = GetComponentInChildren<VisualEffect>();
         fireRateTimer = fireRate;
     }
 
@@ -79,7 +80,7 @@ public class WeaponManager : MonoBehaviour
 
     void TriggerMuzzleFlash()
     {
-        muzzleFlashParticles.Play();
+        muzzleFlashVFX.Play();
         muzzleFlashLight.intensity = lightIntensity;
     }
 

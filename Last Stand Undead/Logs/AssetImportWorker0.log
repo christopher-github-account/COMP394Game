@@ -1,29 +1,29 @@
 Using pre-set license
 Built from '6000.0/release' branch; Version is '6000.0.29f1 (9fafe5c9db65) revision 10465253'; Using compiler version '193933523'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 16318 MB
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 32705 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\6000.0.29f1\Editor\Unity.exe
+E:\Unity\Unity Engine\6000.0.29f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Github/COMP394Game/Last Stand Undead
+C:/Users/diver/Desktop/Documents/GitHub/Semester5/GameDesign/COMP394Game/Last Stand Undead
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53637
+63053
 -job-worker-count
-3
+2
 -background-job-worker-count
 8
 -asset-garbage-collectors
 1
-Successfully changed project path to: C:/Github/COMP394Game/Last Stand Undead
-C:/Github/COMP394Game/Last Stand Undead
+Successfully changed project path to: C:/Users/diver/Desktop/Documents/GitHub/Semester5/GameDesign/COMP394Game/Last Stand Undead
+C:/Users/diver/Desktop/Documents/GitHub/Semester5/GameDesign/COMP394Game/Last Stand Undead
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -59,13 +59,15 @@ C:/Github/COMP394Game/Last Stand Undead
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [39588]  Target information:
+Player connection [40788]  Target information:
 
-Player connection [39588]  * "[IP] 10.0.0.211 [Port] 0 [Flags] 2 [Guid] 3987274237 [EditorId] 3987274237 [Version] 1048832 [Id] WindowsEditor(7,GregHome) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [40788]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3977903775 [EditorId] 3977903775 [Version] 1048832 [Id] WindowsEditor(7,DM-Desktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [39588] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [39588] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 3
+Player connection [40788]  * "[IP] 192.168.1.237 [Port] 0 [Flags] 2 [Guid] 3977903775 [EditorId] 3977903775 [Version] 1048832 [Id] WindowsEditor(7,DM-Desktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [40788] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [40788] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 2
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
 Library Redirect Path: Library/
@@ -75,60 +77,60 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.04 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.64 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.29f1 (9fafe5c9db65)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.29f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Github/COMP394Game/Last Stand Undead/Assets
+[Subsystems] Discovering subsystems at path E:/Unity/Unity Engine/6000.0.29f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/diver/Desktop/Documents/GitHub/Semester5/GameDesign/COMP394Game/Last Stand Undead/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2070 (ID=0x1f02)
+    Renderer: NVIDIA GeForce RTX 2080 (ID=0x1e87)
     Vendor:   NVIDIA
-    VRAM:     8006 MB
-    Driver:   32.0.15.6109
+    VRAM:     7989 MB
+    Driver:   32.0.15.6590
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.29f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.29f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56724
+Mono path[0] = 'E:/Unity/Unity Engine/6000.0.29f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Unity/Unity Engine/6000.0.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/Unity/Unity Engine/6000.0.29f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56308
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003048 seconds.
-- Loaded All Assemblies, in  0.445 seconds
+Register platform support module: E:/Unity/Unity Engine/6000.0.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010700 seconds.
+- Loaded All Assemblies, in  0.793 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.404 seconds
-Domain Reload Profiling: 848ms
-	BeginReloadAssembly (152ms)
+- Finished resetting the current domain, in  0.554 seconds
+Domain Reload Profiling: 1344ms
+	BeginReloadAssembly (209ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (41ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (54ms)
-	LoadAllAssembliesAndSetupDomain (181ms)
-		LoadAssemblies (149ms)
+	RebuildCommonClasses (87ms)
+	RebuildNativeTypeToScriptingClass (56ms)
+	initialDomainReloadingComplete (164ms)
+	LoadAllAssembliesAndSetupDomain (273ms)
+		LoadAssemblies (208ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (178ms)
-			TypeCache.Refresh (177ms)
-				TypeCache.ScanAssembly (159ms)
+		AnalyzeDomain (264ms)
+			TypeCache.Refresh (263ms)
+				TypeCache.ScanAssembly (231ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (405ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (554ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (356ms)
+		SetupLoadedEditorAssemblies (507ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (27ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (7ms)
-			ProcessInitializeOnLoadAttributes (225ms)
-			ProcessInitializeOnLoadMethodAttributes (89ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			InitializePlatformSupportModulesInManaged (36ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (8ms)
+			ProcessInitializeOnLoadAttributes (324ms)
+			ProcessInitializeOnLoadMethodAttributes (128ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
@@ -139,42 +141,13 @@ Import Worker Mode flag is 0x00
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.872 seconds
+- Loaded All Assemblies, in  1.112 seconds
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.57 ms, found 2 plugins.
 Native extension for WindowsStandalone target not found
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Github\COMP394Game\Last Stand Undead\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <ed969b0e627d471da4848289f9c322df>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <ed969b0e627d471da4848289f9c322df>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <ed969b0e627d471da4848289f9c322df>:0 
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <ed969b0e627d471da4848289f9c322df>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
-  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <ed969b0e627d471da4848289f9c322df>:0 
-  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <20f98a04ac634cc8bf5f95425bb19bb9>:0 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
-UnityEditor.Tools:set_lockedLayers (int)
-UnityEditor.Tools:OnEnable ()
-UnityEngine.ScriptableObject:CreateScriptableObjectInstanceFromType (System.Type,bool)
-UnityEngine.ScriptableObject:CreateInstance (System.Type)
-UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
-UnityEditor.Tools:get_get ()
-UnityEditor.Tools:get_visibleLayers ()
-UnityEditor.Animations.Rigging.BoneRendererUtils:.cctor () (at ./Library/PackageCache/com.unity.animation.rigging/Editor/Utils/BoneRendererUtils.cs:121)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: ./Library/PackageCache/com.unity.animation.rigging/Editor/Utils/BoneRendererUtils.cs Line: 121)
-
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-Last Stand Undead
@@ -183,384 +156,84 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.968 seconds
-Domain Reload Profiling: 1836ms
-	BeginReloadAssembly (197ms)
+- Finished resetting the current domain, in  1.313 seconds
+Domain Reload Profiling: 2419ms
+	BeginReloadAssembly (246ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (11ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (35ms)
-	RebuildCommonClasses (40ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (50ms)
-	LoadAllAssembliesAndSetupDomain (567ms)
-		LoadAssemblies (405ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (738ms)
+		LoadAssemblies (510ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (279ms)
-			TypeCache.Refresh (197ms)
-				TypeCache.ScanAssembly (173ms)
-			BuildScriptInfoCaches (66ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (968ms)
+		AnalyzeDomain (380ms)
+			TypeCache.Refresh (254ms)
+				TypeCache.ScanAssembly (233ms)
+			BuildScriptInfoCaches (105ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1313ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (827ms)
+		SetupLoadedEditorAssemblies (1100ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (88ms)
-			ProcessInitializeOnLoadAttributes (650ms)
-			ProcessInitializeOnLoadMethodAttributes (68ms)
-			AfterProcessingInitializeOnLoad (10ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (134ms)
+			ProcessInitializeOnLoadAttributes (842ms)
+			ProcessInitializeOnLoadMethodAttributes (110ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 3.54 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 148 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4887 unused Assets / (5.8 MB). Loaded Objects now: 5452.
-Memory consumption went from 137.1 MB to 131.3 MB.
-Total: 9.029300 ms (FindLiveObjects: 0.561900 ms CreateObjectMapping: 0.673400 ms MarkObjects: 4.901200 ms  DeleteObjects: 2.891500 ms)
-
-========================================================================
-Received Prepare
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4880 unused Assets / (5.5 MB). Loaded Objects now: 5452.
-Memory consumption went from 109.2 MB to 103.8 MB.
-Total: 7.400100 ms (FindLiveObjects: 0.528700 ms CreateObjectMapping: 0.644000 ms MarkObjects: 3.873600 ms  DeleteObjects: 2.353400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 1.47 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4880 unused Assets / (5.5 MB). Loaded Objects now: 5452.
-Memory consumption went from 109.2 MB to 103.7 MB.
-Total: 8.550100 ms (FindLiveObjects: 0.664400 ms CreateObjectMapping: 0.654900 ms MarkObjects: 4.489800 ms  DeleteObjects: 2.739400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4880 unused Assets / (5.5 MB). Loaded Objects now: 5452.
-Memory consumption went from 109.2 MB to 103.7 MB.
-Total: 8.158000 ms (FindLiveObjects: 0.576600 ms CreateObjectMapping: 0.641600 ms MarkObjects: 4.594800 ms  DeleteObjects: 2.344000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4880 unused Assets / (5.5 MB). Loaded Objects now: 5452.
-Memory consumption went from 109.2 MB to 103.8 MB.
-Total: 7.641400 ms (FindLiveObjects: 0.571400 ms CreateObjectMapping: 0.595700 ms MarkObjects: 4.217200 ms  DeleteObjects: 2.256100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4880 unused Assets / (5.5 MB). Loaded Objects now: 5452.
-Memory consumption went from 109.2 MB to 103.7 MB.
-Total: 8.446800 ms (FindLiveObjects: 0.657400 ms CreateObjectMapping: 0.839100 ms MarkObjects: 4.705400 ms  DeleteObjects: 2.243900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4880 unused Assets / (5.6 MB). Loaded Objects now: 5452.
-Memory consumption went from 109.2 MB to 103.6 MB.
-Total: 7.637300 ms (FindLiveObjects: 0.583700 ms CreateObjectMapping: 0.678000 ms MarkObjects: 4.160800 ms  DeleteObjects: 2.214000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4880 unused Assets / (5.5 MB). Loaded Objects now: 5452.
-Memory consumption went from 109.2 MB to 103.7 MB.
-Total: 9.098200 ms (FindLiveObjects: 0.539900 ms CreateObjectMapping: 0.618200 ms MarkObjects: 5.478300 ms  DeleteObjects: 2.460800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4880 unused Assets / (5.5 MB). Loaded Objects now: 5452.
-Memory consumption went from 109.2 MB to 103.7 MB.
-Total: 7.833000 ms (FindLiveObjects: 0.529600 ms CreateObjectMapping: 0.552300 ms MarkObjects: 4.384700 ms  DeleteObjects: 2.365400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4880 unused Assets / (5.3 MB). Loaded Objects now: 5452.
-Memory consumption went from 109.2 MB to 103.9 MB.
-Total: 9.057100 ms (FindLiveObjects: 0.609400 ms CreateObjectMapping: 0.642900 ms MarkObjects: 5.357000 ms  DeleteObjects: 2.446600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4880 unused Assets / (5.6 MB). Loaded Objects now: 5452.
-Memory consumption went from 109.2 MB to 103.5 MB.
-Total: 8.035100 ms (FindLiveObjects: 0.549700 ms CreateObjectMapping: 0.652500 ms MarkObjects: 3.895900 ms  DeleteObjects: 2.936200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4880 unused Assets / (5.5 MB). Loaded Objects now: 5452.
-Memory consumption went from 109.2 MB to 103.7 MB.
-Total: 8.374200 ms (FindLiveObjects: 0.549500 ms CreateObjectMapping: 0.628700 ms MarkObjects: 4.540000 ms  DeleteObjects: 2.654800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.913 seconds
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
-Native extension for WindowsStandalone target not found
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Error loading file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Github\COMP394Game\Last Stand Undead\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <ed969b0e627d471da4848289f9c322df>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <ed969b0e627d471da4848289f9c322df>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
-  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00055] in <ed969b0e627d471da4848289f9c322df>:0 
-  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks) [0x00000] in <ed969b0e627d471da4848289f9c322df>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string,System.Text.Encoding,bool)
-  at System.IO.File.InternalReadAllText (System.String path, System.Text.Encoding encoding) [0x00000] in <ed969b0e627d471da4848289f9c322df>:0 
-  at System.IO.File.ReadAllText (System.String path, System.Text.Encoding encoding) [0x00034] in <ed969b0e627d471da4848289f9c322df>:0 
-  at UnityEditor.StateCache`1[T].GetState (UnityEngine.Hash128 key, T defaultValue) [0x00041] in <20f98a04ac634cc8bf5f95425bb19bb9>:0 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:GetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
-UnityEditor.Tools:OnEnable ()
-UnityEngine.ScriptableObject:CreateScriptableObjectInstanceFromType (System.Type,bool)
-UnityEngine.ScriptableObject:CreateInstance (System.Type)
-UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
-UnityEditor.Tools:get_get ()
-UnityEditor.Tools:get_visibleLayers ()
-UnityEditor.Animations.Rigging.BoneRendererUtils:.cctor () (at ./Library/PackageCache/com.unity.animation.rigging/Editor/Utils/BoneRendererUtils.cs:121)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: ./Library/PackageCache/com.unity.animation.rigging/Editor/Utils/BoneRendererUtils.cs Line: 121)
-
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.865 seconds
-Domain Reload Profiling: 1777ms
-	BeginReloadAssembly (266ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (57ms)
-	RebuildCommonClasses (43ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (557ms)
-		LoadAssemblies (473ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (232ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (195ms)
-			ResolveRequiredComponents (21ms)
-	FinalizeReload (866ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (693ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (86ms)
-			ProcessInitializeOnLoadAttributes (520ms)
-			ProcessInitializeOnLoadMethodAttributes (65ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4885 unused Assets / (5.5 MB). Loaded Objects now: 5455.
-Memory consumption went from 111.1 MB to 105.6 MB.
-Total: 8.140100 ms (FindLiveObjects: 0.545100 ms CreateObjectMapping: 0.652200 ms MarkObjects: 4.581900 ms  DeleteObjects: 2.359500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 726772.082519 seconds.
-  path: Assets/Zombies/Zombie_Biker_Male_01.prefab
-  artifactKey: Guid(6cb63163261c5a84a8a7410cf0775135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Biker_Male_01.prefab using Guid(6cb63163261c5a84a8a7410cf0775135) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a9204c8df6be5246005a03ff29b60cd') in 0.436765 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 346
+Unloading 224 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5497 unused Assets / (7.6 MB). Loaded Objects now: 6193.
+Memory consumption went from 160.8 MB to 153.2 MB.
+Total: 26.645600 ms (FindLiveObjects: 0.646200 ms CreateObjectMapping: 1.531900 ms MarkObjects: 12.169700 ms  DeleteObjects: 12.296700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Zombies/Zombie_Hipster_Male_01 1.prefab
-  artifactKey: Guid(435cbe246d91ddc4a8dc842ea84b5d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Hipster_Male_01 1.prefab using Guid(435cbe246d91ddc4a8dc842ea84b5d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a13421d801cc869c719374565a90933d') in 0.0841487 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 346
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Zombies/Zombie_Businessman_Male_01.prefab
-  artifactKey: Guid(0e2c74548f9e2284aa68e9dc8544219c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Businessman_Male_01.prefab using Guid(0e2c74548f9e2284aa68e9dc8544219c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e8deea772b66f5263ff26540372d4e1') in 0.0687945 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 346
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Zombies/Zombie_Police_Male_01.prefab
-  artifactKey: Guid(ea757c1578e17134b85ac65be02c4b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Police_Male_01.prefab using Guid(ea757c1578e17134b85ac65be02c4b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '98b46d24597c4c6cf17888bebbac7b8b') in 0.0610008 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 346
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Zombies/Zombie_Paramedic_Female_01.prefab
-  artifactKey: Guid(8d862076c59fabf43b7ca2084f63226f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Paramedic_Female_01.prefab using Guid(8d862076c59fabf43b7ca2084f63226f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed5bfdf5c3e43c5f80f127f02e671b06') in 0.0609031 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 346
-
-========================================================================
-Received Import Request.
-  Time since last request: 34.179783 seconds.
-  path: Assets/Zombies/Zombie_Biker_Male_01.prefab
-  artifactKey: Guid(6cb63163261c5a84a8a7410cf0775135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Biker_Male_01.prefab using Guid(6cb63163261c5a84a8a7410cf0775135) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1157c7705a488c93d71245ca39e52082') in 0.0453074 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 346
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.395072 seconds.
-  path: Assets/Zombies/Zombie_BioHazardSuit_Male_01.prefab
-  artifactKey: Guid(cecba8cbb65991c42a1e7219f8210b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_BioHazardSuit_Male_01.prefab using Guid(cecba8cbb65991c42a1e7219f8210b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '806a037b47e78ab02c3f346355f47224') in 0.043054 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 346
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.131262 seconds.
-  path: Assets/Zombies/Zombie_Businessman_Male_01.prefab
-  artifactKey: Guid(0e2c74548f9e2284aa68e9dc8544219c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Businessman_Male_01.prefab using Guid(0e2c74548f9e2284aa68e9dc8544219c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '03bb8d2bb9cf90e7bea08d4950ebf791') in 0.0427963 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 346
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.861400 seconds.
-  path: Assets/Zombies/Zombie_Father_Male_01.prefab
-  artifactKey: Guid(08eb0c5855619374381691dec1799669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Father_Male_01.prefab using Guid(08eb0c5855619374381691dec1799669) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ad469002e3b127f707071dc623afa318') in 0.0447317 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 346
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.743782 seconds.
-  path: Assets/Zombies/Zombie_Hipster_Male_01 1.prefab
-  artifactKey: Guid(435cbe246d91ddc4a8dc842ea84b5d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Hipster_Male_01 1.prefab using Guid(435cbe246d91ddc4a8dc842ea84b5d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '582ac57c89273f81d21e1682b3124b7e') in 0.0453752 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 346
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.578640 seconds.
+  Time since last request: 768987.863394 seconds.
   path: Assets/Zombies/Zombie_Mother_Female_02.prefab
   artifactKey: Guid(307d9d29af4880045b27ca9862422012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Mother_Female_02.prefab using Guid(307d9d29af4880045b27ca9862422012) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '68ca9e0acb837f8a39bc142d6847c480') in 0.0466395 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 346
+Start importing Assets/Zombies/Zombie_Mother_Female_02.prefab using Guid(307d9d29af4880045b27ca9862422012) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a6ae05edb1ce97f0fec8b2d55c50245') in 2.6267506 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 350
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.598971 seconds.
-  path: Assets/Zombies/Zombie_Paramedic_Female_01.prefab
-  artifactKey: Guid(8d862076c59fabf43b7ca2084f63226f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Paramedic_Female_01.prefab using Guid(8d862076c59fabf43b7ca2084f63226f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ac3d7299bcc1706989f8ea463ab78ef') in 0.0434891 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 346
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.782881 seconds.
-  path: Assets/Zombies/Zombie_Police_Female_01.prefab
-  artifactKey: Guid(3ba6740ea34059446b2030cb1cee74bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Police_Female_01.prefab using Guid(3ba6740ea34059446b2030cb1cee74bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1157459bfcded541ef27e4a1f95243c2') in 0.043879 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 346
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.855641 seconds.
-  path: Assets/Zombies/Zombie_Police_Male_01.prefab
-  artifactKey: Guid(ea757c1578e17134b85ac65be02c4b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Police_Male_01.prefab using Guid(ea757c1578e17134b85ac65be02c4b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '70847eb5d839ba28edd4171d346490e9') in 0.0429805 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 346
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.222428 seconds.
+  Time since last request: 0.000033 seconds.
   path: Assets/Zombies/Zombie_SchoolGirl_Female_01.prefab
   artifactKey: Guid(b7a521fe7dabb734a87b288a49e9b68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_SchoolGirl_Female_01.prefab using Guid(b7a521fe7dabb734a87b288a49e9b68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85f3207ae10769d9983998dda0d95f20') in 0.0424539 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 346
+Start importing Assets/Zombies/Zombie_SchoolGirl_Female_01.prefab using Guid(b7a521fe7dabb734a87b288a49e9b68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4da06c56b7b652dc393cbeeafd22bd98') in 0.0960662 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 350
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Zombies/Zombie_Police_Female_01.prefab
+  artifactKey: Guid(3ba6740ea34059446b2030cb1cee74bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Zombie_Police_Female_01.prefab using Guid(3ba6740ea34059446b2030cb1cee74bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3eec462c9ff276c3de81c336a80bda16') in 0.1065324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 350
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Zombies/Zombie_Father_Male_01.prefab
+  artifactKey: Guid(08eb0c5855619374381691dec1799669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Zombie_Father_Male_01.prefab using Guid(08eb0c5855619374381691dec1799669) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d9fd07a8f5bb8779bccc0ea04693474') in 0.0727033 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 350
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Zombies/Zombie_Biker_Male_01.prefab
+  artifactKey: Guid(6cb63163261c5a84a8a7410cf0775135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Zombie_Biker_Male_01.prefab using Guid(6cb63163261c5a84a8a7410cf0775135) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '176dd264f1b2a360692fb65f22ad8cef') in 0.0563779 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 350
 
