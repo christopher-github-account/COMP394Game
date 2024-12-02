@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\PolygonZombies\Shaders\POLYGON_Zombies.shader" />
+    <None Include="Assets\Asset Store Packages\PolygonZombies\Shaders\POLYGON_Zombies.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
