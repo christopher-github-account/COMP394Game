@@ -7867,7 +7867,7 @@ MonoBehaviour:
   _isInFront: 0
   _agent: {fileID: 264944049192776253}
   _walkSpeed: 1
-  _runSpeed: 6
+  _runSpeed: 3
   _index: 0
 --- !u!136 &5014514470992714742
 CapsuleCollider:

@@ -2527,7 +2527,7 @@ MonoBehaviour:
   _isInFront: 0
   _agent: {fileID: 3007053032465820619}
   _walkSpeed: 1
-  _runSpeed: 6
+  _runSpeed: 3
   _index: 0
 --- !u!82 &3333248640425259144
 AudioSource:
