@@ -1,2 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+Last[[:space:]]Stand[[:space:]]Undead/Assets/Mixamo/Swat[[:space:]]Guy/Character/Player.fbx filter=lfs diff=lfs merge=lfs -text
+Last[[:space:]]Stand[[:space:]]Undead/Library/PackageCache/com.unity.burst/.Runtime/libburst-llvm-16.dylib filter=lfs diff=lfs merge=lfs -text
