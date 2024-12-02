@@ -6339,6 +6339,7 @@ GameObject:
   - component: {fileID: -1319690715510758173}
   - component: {fileID: 6738690611211494710}
   - component: {fileID: -4099008960945825116}
+  - component: {fileID: -8520424264505151733}
   m_Layer: 0
   m_Name: Zombie_Businessman_Male_01
   m_TagString: Enemy
@@ -6642,6 +6643,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemiesKilled: 0
+--- !u!114 &-8520424264505151733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1767653040776728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca8968d851408474088117d60def7fab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1769231182893566
 GameObject:
   m_ObjectHideFlags: 0

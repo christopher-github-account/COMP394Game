@@ -1526,6 +1526,7 @@ GameObject:
   - component: {fileID: 3039666170109356046}
   - component: {fileID: 2250891592163111106}
   - component: {fileID: 8954188399392638035}
+  - component: {fileID: -4122418706732426521}
   m_Layer: 0
   m_Name: Zombie_Biker_Male_01
   m_TagString: Enemy
@@ -1829,6 +1830,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemiesKilled: 0
+--- !u!114 &-4122418706732426521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1164828658887116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca8968d851408474088117d60def7fab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1170383170512236
 GameObject:
   m_ObjectHideFlags: 0
