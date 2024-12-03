@@ -61,6 +61,7 @@
     <Analyzer Include="E:\Unity\Unity Engine\6000.0.29f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< Updated upstream
     <Compile Include="Assets\IncreaseDamage.cs" />
     <Compile Include="Assets\Scripts\ActionStates\ReloadState.cs" />
     <Compile Include="Assets\PowerUpIncreaseShootSpeed.cs" />
@@ -106,6 +107,10 @@
     <Compile Include="Assets\Scripts\MovementStates\MovementStateManager.cs" />
     <Compile Include="Assets\Scripts\ActionStates\SwapState.cs" />
     <Compile Include="Assets\PowerUp_Arcade_Arsenal\scripts\PAA_powerupControllerExample.cs" />
+=======
+    <Compile Include="Assets\LoadingScene.cs" />
+    <Compile Include="Assets\Movement.cs" />
+>>>>>>> Stashed changes
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
