@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class EnemyHealth : MonoBehaviour
 {
-    public int maxHealth = 3;
+    public int maxHealth = 100;
     public int currentHealth;
 
     public static bool enemyIsDead;
@@ -27,7 +27,6 @@ public class EnemyHealth : MonoBehaviour
         {
             Destroy(gameObject);
             enemyIsDead = true;
-
         }
     }
 }

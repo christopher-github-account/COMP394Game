@@ -458,6 +458,7 @@
 "Assets/Scripts/MovementStates/States/JumpState.cs"
 "Assets/Scripts/MovementStates/States/RunState.cs"
 "Assets/Scripts/MovementStates/States/WalkState.cs"
+"Assets/Scripts/PauseManager.cs"
 "Assets/Scripts/PlayerMovement.cs"
 "Assets/Scripts/SimpleFSM.cs"
 "Assets/Scripts/SpawnScript.cs"

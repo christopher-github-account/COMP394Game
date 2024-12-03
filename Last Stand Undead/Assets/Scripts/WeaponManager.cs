@@ -13,7 +13,7 @@ public class WeaponManager : MonoBehaviour
     [SerializeField] Transform barrelPosition;
     [SerializeField] float bulletVelocity;
     [SerializeField] int bulletsPerShot;
-    public float damage = 20;
+    public int damage = 20;
     AimStateManager aim;
 
     [SerializeField] AudioClip gunShot;
