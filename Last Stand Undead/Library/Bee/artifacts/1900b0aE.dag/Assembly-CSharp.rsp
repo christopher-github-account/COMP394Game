@@ -450,6 +450,7 @@
 "Assets/Scripts/CameraMovement.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/GraphPlotter.cs"
+"Assets/Scripts/Managers/PauseManager.cs"
 "Assets/Scripts/MovementStates/MovementBaseState.cs"
 "Assets/Scripts/MovementStates/MovementStateManager.cs"
 "Assets/Scripts/MovementStates/MovementStates.cs"
