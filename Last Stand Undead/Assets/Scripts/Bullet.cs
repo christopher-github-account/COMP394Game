@@ -14,6 +14,11 @@ public class Bullet : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         /*// Take Damage Code Here
+         * 
+         * 
+         * zombie.TakeDamage(weapon.damage); <<<---------
+         * 
+         * 
         if (collision.gameObject.GetComponentInParent<EnemyHealth>()) 
         {
             EnemyHealth enemyHealth = gameObject.GetComponentInParent<EnemyHealth>();
