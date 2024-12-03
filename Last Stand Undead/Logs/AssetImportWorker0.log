@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '6000.0/release' branch; Version is '6000.0.29f1 (9fafe5c9db65) revision 10465253'; Using compiler version '193933523'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 16318 MB
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 7498 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\6000.0.29f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Github/COMP394Game/Last Stand Undead
+C:/Centennial/PractGameDesing/COMP394Game/Last Stand Undead
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51127
+50641
 -job-worker-count
-3
+5
 -background-job-worker-count
 8
 -asset-garbage-collectors
 1
-Successfully changed project path to: C:/Github/COMP394Game/Last Stand Undead
-C:/Github/COMP394Game/Last Stand Undead
+Successfully changed project path to: C:/Centennial/PractGameDesing/COMP394Game/Last Stand Undead
+C:/Centennial/PractGameDesing/COMP394Game/Last Stand Undead
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -59,13 +59,13 @@ C:/Github/COMP394Game/Last Stand Undead
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [22828]  Target information:
+Player connection [20240]  Target information:
 
-Player connection [22828]  * "[IP] 10.0.0.211 [Port] 0 [Flags] 2 [Guid] 2710177159 [EditorId] 2710177159 [Version] 1048832 [Id] WindowsEditor(7,GregHome) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [20240]  * "[IP] 192.168.1.11 [Port] 0 [Flags] 2 [Guid] 408721465 [EditorId] 408721465 [Version] 1048832 [Id] WindowsEditor(7,Pritpal) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [22828] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [22828] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 3
+Player connection [20240] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [20240] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
 Library Redirect Path: Library/
@@ -75,60 +75,64 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.17 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.83 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.29f1 (9fafe5c9db65)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.29f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Github/COMP394Game/Last Stand Undead/Assets
+[Subsystems] Discovering subsystems at path C:/Centennial/PractGameDesing/COMP394Game/Last Stand Undead/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2070 (ID=0x1f02)
+    Renderer: NVIDIA GeForce RTX 2050 (ID=0x25ad)
     Vendor:   NVIDIA
-    VRAM:     8006 MB
-    Driver:   32.0.15.6109
+    VRAM:     3964 MB
+    Driver:   32.0.15.6614
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.29f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.29f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56304
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56168
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.29f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003219 seconds.
-- Loaded All Assemblies, in  0.578 seconds
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.29f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.011987 seconds.
+- Loaded All Assemblies, in  0.653 seconds
+Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.459 seconds
-Domain Reload Profiling: 1028ms
-	BeginReloadAssembly (178ms)
+- Finished resetting the current domain, in  0.501 seconds
+Domain Reload Profiling: 1151ms
+	BeginReloadAssembly (265ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (50ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (80ms)
-	LoadAllAssembliesAndSetupDomain (247ms)
-		LoadAssemblies (186ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (87ms)
+	LoadAllAssembliesAndSetupDomain (231ms)
+		LoadAssemblies (256ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (230ms)
-			TypeCache.Refresh (229ms)
-				TypeCache.ScanAssembly (202ms)
+		AnalyzeDomain (226ms)
+			TypeCache.Refresh (223ms)
+				TypeCache.ScanAssembly (203ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (459ms)
+	FinalizeReload (502ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (403ms)
+		SetupLoadedEditorAssemblies (426ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (27ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (8ms)
-			ProcessInitializeOnLoadAttributes (234ms)
-			ProcessInitializeOnLoadMethodAttributes (125ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			InitializePlatformSupportModulesInManaged (39ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (13ms)
+			ProcessInitializeOnLoadAttributes (284ms)
+			ProcessInitializeOnLoadMethodAttributes (80ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
@@ -139,12 +143,14 @@ Import Worker Mode flag is 0x00
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.072 seconds
+- Loaded All Assemblies, in  1.207 seconds
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.07 ms, found 2 plugins.
+Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
@@ -154,892 +160,709 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.086 seconds
-Domain Reload Profiling: 2152ms
-	BeginReloadAssembly (193ms)
+- Finished resetting the current domain, in  1.306 seconds
+Domain Reload Profiling: 2509ms
+	BeginReloadAssembly (236ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (32ms)
-	RebuildCommonClasses (43ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (59ms)
 	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (772ms)
-		LoadAssemblies (524ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (847ms)
+		LoadAssemblies (580ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (366ms)
-			TypeCache.Refresh (260ms)
-				TypeCache.ScanAssembly (238ms)
-			BuildScriptInfoCaches (90ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (1087ms)
+		AnalyzeDomain (404ms)
+			TypeCache.Refresh (268ms)
+				TypeCache.ScanAssembly (245ms)
+			BuildScriptInfoCaches (117ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1307ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (886ms)
+		SetupLoadedEditorAssemblies (1038ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (73ms)
-			ProcessInitializeOnLoadAttributes (672ms)
-			ProcessInitializeOnLoadMethodAttributes (124ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (113ms)
+			ProcessInitializeOnLoadAttributes (771ms)
+			ProcessInitializeOnLoadMethodAttributes (131ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 1.21 ms, found 2 plugins.
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 3.03 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 224 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5512 unused Assets / (5.1 MB). Loaded Objects now: 6209.
-Memory consumption went from 165.9 MB to 160.8 MB.
-Total: 12.058300 ms (FindLiveObjects: 0.652600 ms CreateObjectMapping: 1.315600 ms MarkObjects: 6.375600 ms  DeleteObjects: 3.713400 ms)
+Unloading 5512 unused Assets / (5.4 MB). Loaded Objects now: 6209.
+Memory consumption went from 169.7 MB to 164.3 MB.
+Total: 17.980900 ms (FindLiveObjects: 1.191100 ms CreateObjectMapping: 1.298000 ms MarkObjects: 10.436900 ms  DeleteObjects: 5.050500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 759052.990723 seconds.
-  path: Assets/Scenes/Last Stand Undead/NavMesh-Map.asset
-  artifactKey: Guid(c57ec1a2da0544b489c37d2c913805d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Last Stand Undead/NavMesh-Map.asset using Guid(c57ec1a2da0544b489c37d2c913805d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '08862b34f41534d9f43ebfd1a7ec85e9') in 0.0396035 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.601578 seconds.
-  path: Assets/Scenes/Last Stand Undead Scene Data/LightingData.asset
-  artifactKey: Guid(8d4b7b7cc6078b842a3f679a0468c2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Last Stand Undead Scene Data/LightingData.asset using Guid(8d4b7b7cc6078b842a3f679a0468c2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '694ac5c68e873a94c1cd71fb10161459') in 0.0011909 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.013384 seconds.
-  path: Assets/Scenes/Last Stand Undead Scene Data/ReflectionProbe-0.exr
-  artifactKey: Guid(1b23909e866fe9947be38ba481a772dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Last Stand Undead Scene Data/ReflectionProbe-0.exr using Guid(1b23909e866fe9947be38ba481a772dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7523821b47ab79396c64fe133c57ac9e') in 0.6594884 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.351739 seconds.
-  path: Assets/Scenes/Last Stand Undead.unity
-  artifactKey: Guid(a10cea3ca6bc1e24495595d995e81239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Last Stand Undead.unity using Guid(a10cea3ca6bc1e24495595d995e81239) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd903dd64204b5a362e2f8975a1a4aa09') in 0.0006441 seconds
+  Time since last request: 328699.454717 seconds.
+  path: Assets/Scenes/PauseMenu.unity
+  artifactKey: Guid(fee1811c43c84724d96d83198c84483b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PauseMenu.unity using Guid(fee1811c43c84724d96d83198c84483b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd128d30dc3a60d5ee2c9a2492b9b5aa9') in 0.1512589 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
-Received Import Request.
-  Time since last request: 7.279617 seconds.
-  path: Assets/Zombies/Zombie_Biker_Male_01.prefab
-  artifactKey: Guid(6cb63163261c5a84a8a7410cf0775135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Biker_Male_01.prefab using Guid(6cb63163261c5a84a8a7410cf0775135) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ead396a6f1528029a2a1105053fe993') in 0.3035977 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 456
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  3.307 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.15 ms, found 2 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.518 seconds
+Domain Reload Profiling: 4836ms
+	BeginReloadAssembly (1184ms)
+		ExecutionOrderSort (1ms)
+		DisableScriptedObjects (103ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (2ms)
+		CreateAndSetChildDomain (541ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (2008ms)
+		LoadAssemblies (1320ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (953ms)
+			TypeCache.Refresh (137ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (754ms)
+			ResolveRequiredComponents (27ms)
+	FinalizeReload (1519ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1179ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (105ms)
+			ProcessInitializeOnLoadAttributes (935ms)
+			ProcessInitializeOnLoadMethodAttributes (102ms)
+			AfterProcessingInitializeOnLoad (22ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+Refreshing native plugins compatible for Editor in 1.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5510 unused Assets / (5.5 MB). Loaded Objects now: 6225.
+Memory consumption went from 147.0 MB to 141.5 MB.
+Total: 19.091000 ms (FindLiveObjects: 1.217800 ms CreateObjectMapping: 1.319400 ms MarkObjects: 11.022900 ms  DeleteObjects: 5.526600 ms)
 
+Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Zombies/Zombie_Mother_Female_02.prefab
-  artifactKey: Guid(307d9d29af4880045b27ca9862422012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Mother_Female_02.prefab using Guid(307d9d29af4880045b27ca9862422012) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b09b03478652cd069b928a0fad39263c') in 0.0706367 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 352
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Zombies/Zombie_Hipster_Male_01 1.prefab
-  artifactKey: Guid(435cbe246d91ddc4a8dc842ea84b5d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Hipster_Male_01 1.prefab using Guid(435cbe246d91ddc4a8dc842ea84b5d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd0618c8db4db4bf36f45aba4d80901d1') in 0.062298 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 352
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Zombies/Zombie_SchoolGirl_Female_01.prefab
-  artifactKey: Guid(b7a521fe7dabb734a87b288a49e9b68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_SchoolGirl_Female_01.prefab using Guid(b7a521fe7dabb734a87b288a49e9b68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dcf6d8bc0ffc6d165578a28d4fc7d74d') in 0.0579128 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 352
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Zombies/Zombie_Businessman_Male_01.prefab
-  artifactKey: Guid(0e2c74548f9e2284aa68e9dc8544219c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Businessman_Male_01.prefab using Guid(0e2c74548f9e2284aa68e9dc8544219c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd5b8f48ba5bb263c46dbdc7bc9748e9') in 0.064074 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 352
+  Time since last request: 196.111633 seconds.
+  path: Assets/Asset Store Packages/Raptor3D/ATV_N1/Scenes/Scene_Texture/Texture_Variants.png
+  artifactKey: Guid(190b816b121d3e74090baed5c429bd08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store Packages/Raptor3D/ATV_N1/Scenes/Scene_Texture/Texture_Variants.png using Guid(190b816b121d3e74090baed5c429bd08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3d6ed034a9897da0e7c4e244ff9941b5') in 0.3444325 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000038 seconds.
-  path: Assets/Zombies/Zombie_Police_Male_01.prefab
-  artifactKey: Guid(ea757c1578e17134b85ac65be02c4b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Police_Male_01.prefab using Guid(ea757c1578e17134b85ac65be02c4b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '709537e5daf2eb1c221b9ce1c5fefcbc') in 0.0596461 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 352
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Zombies/Zombie_Paramedic_Female_01.prefab
-  artifactKey: Guid(8d862076c59fabf43b7ca2084f63226f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Paramedic_Female_01.prefab using Guid(8d862076c59fabf43b7ca2084f63226f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '76870db47b2fa084022d8d5bd7834591') in 0.0641476 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 352
-
-========================================================================
-Received Import Request.
-  Time since last request: 193.856577 seconds.
-  path: Assets/Zombies/Zombie_Biker_Male_01.prefab
-  artifactKey: Guid(6cb63163261c5a84a8a7410cf0775135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Biker_Male_01.prefab using Guid(6cb63163261c5a84a8a7410cf0775135) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd146f938e9a06b794daca33962815406') in 0.4479401 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 456
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.399879 seconds.
-  path: Assets/Zombies/Zombie_Biker_Male_01.prefab
-  artifactKey: Guid(6cb63163261c5a84a8a7410cf0775135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Biker_Male_01.prefab using Guid(6cb63163261c5a84a8a7410cf0775135) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0694b2b88054ff4cf5336254b9beb61f') in 0.0723132 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 456
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.451246 seconds.
-  path: Assets/Zombies/Zombie_BioHazardSuit_Male_01.prefab
-  artifactKey: Guid(cecba8cbb65991c42a1e7219f8210b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_BioHazardSuit_Male_01.prefab using Guid(cecba8cbb65991c42a1e7219f8210b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a1751034a8f14321489a60fd9dadf0c') in 0.0526285 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 352
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.624314 seconds.
-  path: Assets/Zombies/Zombie_Businessman_Male_01.prefab
-  artifactKey: Guid(0e2c74548f9e2284aa68e9dc8544219c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Businessman_Male_01.prefab using Guid(0e2c74548f9e2284aa68e9dc8544219c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e0e8c25e95a987b869b9a64b90fee78d') in 0.0539463 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 352
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.024010 seconds.
-  path: Assets/Zombies/Zombie_Father_Male_01.prefab
-  artifactKey: Guid(08eb0c5855619374381691dec1799669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Father_Male_01.prefab using Guid(08eb0c5855619374381691dec1799669) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06b47648c6863b11e35170b072004d9a') in 0.0518513 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 352
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.477723 seconds.
-  path: Assets/Zombies/Zombie_Hipster_Male_01 1.prefab
-  artifactKey: Guid(435cbe246d91ddc4a8dc842ea84b5d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Hipster_Male_01 1.prefab using Guid(435cbe246d91ddc4a8dc842ea84b5d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bfd709a90d1fda3c506d463c31c9e762') in 0.0596543 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 352
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.063686 seconds.
-  path: Assets/Zombies/Zombie_Mother_Female_02.prefab
-  artifactKey: Guid(307d9d29af4880045b27ca9862422012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Mother_Female_02.prefab using Guid(307d9d29af4880045b27ca9862422012) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6961433aa9b2f6e79a056c0223c966f') in 0.0563546 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 352
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.497375 seconds.
-  path: Assets/Zombies/Zombie_Paramedic_Female_01.prefab
-  artifactKey: Guid(8d862076c59fabf43b7ca2084f63226f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Paramedic_Female_01.prefab using Guid(8d862076c59fabf43b7ca2084f63226f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cdc472e7437d8043ea919863a30e654f') in 0.0541282 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 352
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.715207 seconds.
-  path: Assets/Zombies/Zombie_Police_Female_01.prefab
-  artifactKey: Guid(3ba6740ea34059446b2030cb1cee74bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Police_Female_01.prefab using Guid(3ba6740ea34059446b2030cb1cee74bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bacabedc59dbbb6f358f24006c78e234') in 0.0704202 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 352
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.414473 seconds.
-  path: Assets/Zombies/Zombie_Police_Male_01.prefab
-  artifactKey: Guid(ea757c1578e17134b85ac65be02c4b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Police_Male_01.prefab using Guid(ea757c1578e17134b85ac65be02c4b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd8c95da7764021ac90027cc233df156') in 0.0610951 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 352
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.292988 seconds.
-  path: Assets/Zombies/Zombie_SchoolGirl_Female_01.prefab
-  artifactKey: Guid(b7a521fe7dabb734a87b288a49e9b68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_SchoolGirl_Female_01.prefab using Guid(b7a521fe7dabb734a87b288a49e9b68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '24a7a2dd81d88c685305a46fc9a8145f') in 0.0510004 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 352
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.193757 seconds.
-  path: Assets/Zombies/Zombie_BioHazardSuit_Male_01.prefab
-  artifactKey: Guid(cecba8cbb65991c42a1e7219f8210b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_BioHazardSuit_Male_01.prefab using Guid(cecba8cbb65991c42a1e7219f8210b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb86ed566cfc022d1c899a21eda36467') in 0.0476326 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 352
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.608496 seconds.
-  path: Assets/Zombies/Zombie_BioHazardSuit_Male_01.prefab
-  artifactKey: Guid(cecba8cbb65991c42a1e7219f8210b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_BioHazardSuit_Male_01.prefab using Guid(cecba8cbb65991c42a1e7219f8210b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd10ed0334d623f842c555119e3f9465f') in 0.0503699 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 352
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.586892 seconds.
-  path: Assets/Zombies/Zombie_BioHazardSuit_Male_01.prefab
-  artifactKey: Guid(cecba8cbb65991c42a1e7219f8210b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_BioHazardSuit_Male_01.prefab using Guid(cecba8cbb65991c42a1e7219f8210b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3985edf645700593c5a5f60eccf7285c') in 0.0503062 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 352
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.012546 seconds.
-  path: Assets/Zombies/Zombie_BioHazardSuit_Male_01.prefab
-  artifactKey: Guid(cecba8cbb65991c42a1e7219f8210b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_BioHazardSuit_Male_01.prefab using Guid(cecba8cbb65991c42a1e7219f8210b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b086602ca16ef8e603236e71d708d06e') in 0.0580562 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 352
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.906585 seconds.
-  path: Assets/Zombies/Zombie_BioHazardSuit_Male_01.prefab
-  artifactKey: Guid(cecba8cbb65991c42a1e7219f8210b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_BioHazardSuit_Male_01.prefab using Guid(cecba8cbb65991c42a1e7219f8210b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '224c42d868a251540d5809d41d6bfe33') in 0.0535518 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 352
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.329981 seconds.
-  path: Assets/Zombies/Zombie_Biker_Male_01.prefab
-  artifactKey: Guid(6cb63163261c5a84a8a7410cf0775135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Biker_Male_01.prefab using Guid(6cb63163261c5a84a8a7410cf0775135) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '86e3ffcf3b4cc1475551c81da4c802b1') in 0.0775167 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 456
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.250632 seconds.
-  path: Assets/Zombies/Zombie_Businessman_Male_01.prefab
-  artifactKey: Guid(0e2c74548f9e2284aa68e9dc8544219c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Businessman_Male_01.prefab using Guid(0e2c74548f9e2284aa68e9dc8544219c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f5df93ecdf0833a962853c77d61541a') in 0.0486152 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 352
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.724591 seconds.
-  path: Assets/Zombies/Zombie_Businessman_Male_01.prefab
-  artifactKey: Guid(0e2c74548f9e2284aa68e9dc8544219c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Businessman_Male_01.prefab using Guid(0e2c74548f9e2284aa68e9dc8544219c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e7a5d6713a8af7871917585d8b64e46') in 0.0487672 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 352
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.853034 seconds.
-  path: Assets/Zombies/Zombie_Businessman_Male_01.prefab
-  artifactKey: Guid(0e2c74548f9e2284aa68e9dc8544219c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Businessman_Male_01.prefab using Guid(0e2c74548f9e2284aa68e9dc8544219c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '79a20f30bf6d4cf5db9fbf8e435f9f4e') in 0.0466842 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 352
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.988390 seconds.
-  path: Assets/Zombies/Zombie_Businessman_Male_01.prefab
-  artifactKey: Guid(0e2c74548f9e2284aa68e9dc8544219c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Businessman_Male_01.prefab using Guid(0e2c74548f9e2284aa68e9dc8544219c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '423d2c4df9c716ce3f9ad49fe1e9883e') in 0.0483406 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 352
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.078195 seconds.
-  path: Assets/Zombies/Zombie_Businessman_Male_01.prefab
-  artifactKey: Guid(0e2c74548f9e2284aa68e9dc8544219c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Businessman_Male_01.prefab using Guid(0e2c74548f9e2284aa68e9dc8544219c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '77ff90c7f66355269e83ee78d3e849a8') in 0.0540664 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 352
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.735847 seconds.
-  path: Assets/Zombies/Zombie_Father_Male_01.prefab
-  artifactKey: Guid(08eb0c5855619374381691dec1799669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Father_Male_01.prefab using Guid(08eb0c5855619374381691dec1799669) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7bffde1671b476cef0278641466e0f4') in 0.0465719 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 352
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.751913 seconds.
-  path: Assets/Zombies/Zombie_Father_Male_01.prefab
-  artifactKey: Guid(08eb0c5855619374381691dec1799669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Father_Male_01.prefab using Guid(08eb0c5855619374381691dec1799669) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '862bbb1c18b00fa484f9a3fccef97ca4') in 0.0486112 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 352
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.656541 seconds.
-  path: Assets/Zombies/Zombie_Father_Male_01.prefab
-  artifactKey: Guid(08eb0c5855619374381691dec1799669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Father_Male_01.prefab using Guid(08eb0c5855619374381691dec1799669) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3b768dc2dfdbcd93dda5091d4e9836c') in 0.0491542 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 352
-
-========================================================================
-Received Import Request.
-  Time since last request: 35.603389 seconds.
-  path: Assets/Zombies/Zombie_Hipster_Male_01 1.prefab
-  artifactKey: Guid(435cbe246d91ddc4a8dc842ea84b5d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Hipster_Male_01 1.prefab using Guid(435cbe246d91ddc4a8dc842ea84b5d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee54f28419bbda1c7354e2800f04327c') in 0.0489952 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 352
-
-========================================================================
-Received Import Request.
-  Time since last request: 29.737529 seconds.
-  path: Assets/Zombies/Zombie_Mother_Female_02.prefab
-  artifactKey: Guid(307d9d29af4880045b27ca9862422012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Mother_Female_02.prefab using Guid(307d9d29af4880045b27ca9862422012) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a4edfdb28b5f1d0820fb9b13a2639260') in 0.0502819 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 352
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.307329 seconds.
-  path: Assets/Zombies/Zombie_Paramedic_Female_01.prefab
-  artifactKey: Guid(8d862076c59fabf43b7ca2084f63226f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Paramedic_Female_01.prefab using Guid(8d862076c59fabf43b7ca2084f63226f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27b0b89490d7a1e9f1ba765182f7fe41') in 0.0521982 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 352
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.928331 seconds.
-  path: Assets/Zombies/Zombie_BioHazardSuit_Male_01.prefab
-  artifactKey: Guid(cecba8cbb65991c42a1e7219f8210b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_BioHazardSuit_Male_01.prefab using Guid(cecba8cbb65991c42a1e7219f8210b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc7e75fe713fa1c584f0dd7453a05352') in 0.0464086 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 352
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.466141 seconds.
-  path: Assets/Zombies/Zombie_BioHazardSuit_Male_01.prefab
-  artifactKey: Guid(cecba8cbb65991c42a1e7219f8210b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_BioHazardSuit_Male_01.prefab using Guid(cecba8cbb65991c42a1e7219f8210b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f00a58886ed17c5b6fb21c8dd7f4151d') in 0.051671 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 352
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.689125 seconds.
-  path: Assets/Zombies/Zombie_Businessman_Male_01.prefab
-  artifactKey: Guid(0e2c74548f9e2284aa68e9dc8544219c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Businessman_Male_01.prefab using Guid(0e2c74548f9e2284aa68e9dc8544219c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd72fb5042fd20d6dd42d4fc423f68f04') in 0.0511973 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 352
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.196351 seconds.
-  path: Assets/Zombies/Zombie_Father_Male_01.prefab
-  artifactKey: Guid(08eb0c5855619374381691dec1799669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Father_Male_01.prefab using Guid(08eb0c5855619374381691dec1799669) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f07adb3e85839c7c5b015c4d2c08ea7f') in 0.0497111 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 352
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.828606 seconds.
-  path: Assets/Zombies/Zombie_Hipster_Male_01 1.prefab
-  artifactKey: Guid(435cbe246d91ddc4a8dc842ea84b5d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Hipster_Male_01 1.prefab using Guid(435cbe246d91ddc4a8dc842ea84b5d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '89896172f3edf024fb53d0cf957f7dac') in 0.0471535 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 352
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.660435 seconds.
-  path: Assets/Zombies/Zombie_Mother_Female_02.prefab
-  artifactKey: Guid(307d9d29af4880045b27ca9862422012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Mother_Female_02.prefab using Guid(307d9d29af4880045b27ca9862422012) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3e1435e1f852a6016a01cba5d338916') in 0.0535176 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 352
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.216092 seconds.
-  path: Assets/Zombies/Zombie_Paramedic_Female_01.prefab
-  artifactKey: Guid(8d862076c59fabf43b7ca2084f63226f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Paramedic_Female_01.prefab using Guid(8d862076c59fabf43b7ca2084f63226f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '955e626fd7845484dd656184bcf3d9d5') in 0.0479715 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 352
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.646003 seconds.
-  path: Assets/Zombies/Zombie_Paramedic_Female_01.prefab
-  artifactKey: Guid(8d862076c59fabf43b7ca2084f63226f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Paramedic_Female_01.prefab using Guid(8d862076c59fabf43b7ca2084f63226f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f437fe65f6a17d778e467a856e08dd7c') in 0.0474604 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 352
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.372132 seconds.
-  path: Assets/Zombies/Zombie_Paramedic_Female_01.prefab
-  artifactKey: Guid(8d862076c59fabf43b7ca2084f63226f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Paramedic_Female_01.prefab using Guid(8d862076c59fabf43b7ca2084f63226f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd7ee01f013784767e5496698b8ba396') in 0.0473148 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 352
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.254175 seconds.
-  path: Assets/Zombies/Zombie_Paramedic_Female_01.prefab
-  artifactKey: Guid(8d862076c59fabf43b7ca2084f63226f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Paramedic_Female_01.prefab using Guid(8d862076c59fabf43b7ca2084f63226f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78865dd0100aea2b2936cabc342834d3') in 0.0504506 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 352
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.459441 seconds.
-  path: Assets/Zombies/Zombie_Police_Female_01.prefab
-  artifactKey: Guid(3ba6740ea34059446b2030cb1cee74bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Police_Female_01.prefab using Guid(3ba6740ea34059446b2030cb1cee74bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c9c8bb333e1ae1a34bc8fecaa197bd8') in 0.0480195 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 352
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.671706 seconds.
-  path: Assets/Zombies/Zombie_Police_Female_01.prefab
-  artifactKey: Guid(3ba6740ea34059446b2030cb1cee74bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Police_Female_01.prefab using Guid(3ba6740ea34059446b2030cb1cee74bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f16a8be8f29809614ab9749cce4f4646') in 0.0482659 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 352
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.906193 seconds.
-  path: Assets/Zombies/Zombie_Police_Female_01.prefab
-  artifactKey: Guid(3ba6740ea34059446b2030cb1cee74bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Police_Female_01.prefab using Guid(3ba6740ea34059446b2030cb1cee74bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d720bd1c03764556ae2a8f3d20a023e') in 0.0467046 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 352
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.401272 seconds.
-  path: Assets/Zombies/Zombie_Police_Female_01.prefab
-  artifactKey: Guid(3ba6740ea34059446b2030cb1cee74bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Police_Female_01.prefab using Guid(3ba6740ea34059446b2030cb1cee74bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53129127e49bcbc180898b9a72c3bf40') in 0.056133 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 352
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.389971 seconds.
-  path: Assets/Zombies/Zombie_Police_Male_01.prefab
-  artifactKey: Guid(ea757c1578e17134b85ac65be02c4b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Police_Male_01.prefab using Guid(ea757c1578e17134b85ac65be02c4b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a340e57cd5a810cfd9aa0c8b4ada012') in 0.0491533 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 352
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.031278 seconds.
-  path: Assets/Zombies/Zombie_Police_Male_01.prefab
-  artifactKey: Guid(ea757c1578e17134b85ac65be02c4b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Police_Male_01.prefab using Guid(ea757c1578e17134b85ac65be02c4b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '63df75d8a2045501f0e2f0fff36dafc5') in 0.0474129 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 352
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.443092 seconds.
-  path: Assets/Zombies/Zombie_Police_Male_01.prefab
-  artifactKey: Guid(ea757c1578e17134b85ac65be02c4b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Police_Male_01.prefab using Guid(ea757c1578e17134b85ac65be02c4b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06f41386db66a2bb04e4e73a948c3d77') in 0.049062 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 352
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.112871 seconds.
-  path: Assets/Zombies/Zombie_SchoolGirl_Female_01.prefab
-  artifactKey: Guid(b7a521fe7dabb734a87b288a49e9b68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_SchoolGirl_Female_01.prefab using Guid(b7a521fe7dabb734a87b288a49e9b68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f189f2dbe4040d9962f49837266c1d37') in 0.0470025 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 352
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.369828 seconds.
-  path: Assets/Zombies/Zombie_SchoolGirl_Female_01.prefab
-  artifactKey: Guid(b7a521fe7dabb734a87b288a49e9b68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_SchoolGirl_Female_01.prefab using Guid(b7a521fe7dabb734a87b288a49e9b68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2ddad554a22e7c3674fa84818a142d85') in 0.0493217 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 352
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.959828 seconds.
-  path: Assets/Zombies/Zombie_SchoolGirl_Female_01.prefab
-  artifactKey: Guid(b7a521fe7dabb734a87b288a49e9b68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_SchoolGirl_Female_01.prefab using Guid(b7a521fe7dabb734a87b288a49e9b68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '486ce9ebc3b3431306c82378bf644deb') in 0.0479425 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 352
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.916733 seconds.
-  path: Assets/Zombies/Zombie_SchoolGirl_Female_01.prefab
-  artifactKey: Guid(b7a521fe7dabb734a87b288a49e9b68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_SchoolGirl_Female_01.prefab using Guid(b7a521fe7dabb734a87b288a49e9b68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '385379599b1daa9c589d8268789fd0be') in 0.0472735 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 352
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.929654 seconds.
-  path: Assets/Prefabs/PlayerKit_Unpack and delete me after.prefab
-  artifactKey: Guid(71b5568f8b4632e40985c87f619931db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/PlayerKit_Unpack and delete me after.prefab using Guid(71b5568f8b4632e40985c87f619931db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '48147bc8c64bdfd913e0d24b8ecae215') in 0.4782435 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 350
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.590745 seconds.
-  path: Assets/Zombies/Zombie_BioHazardSuit_Male_01.prefab
-  artifactKey: Guid(cecba8cbb65991c42a1e7219f8210b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_BioHazardSuit_Male_01.prefab using Guid(cecba8cbb65991c42a1e7219f8210b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '242ff994555ead2944bfa0943cf29f2e') in 0.0649503 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 423
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.550951 seconds.
-  path: Assets/Zombies/Zombie_BioHazardSuit_Male_01.prefab
-  artifactKey: Guid(cecba8cbb65991c42a1e7219f8210b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_BioHazardSuit_Male_01.prefab using Guid(cecba8cbb65991c42a1e7219f8210b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15d5c16200c087fcfd10930285ef8723') in 0.0717228 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 432
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.480846 seconds.
-  path: Assets/Zombies/Zombie_BioHazardSuit_Male_01.prefab
-  artifactKey: Guid(cecba8cbb65991c42a1e7219f8210b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_BioHazardSuit_Male_01.prefab using Guid(cecba8cbb65991c42a1e7219f8210b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c91a46895aa9e21ec223deb91e6a582') in 0.0692587 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 440
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.009554 seconds.
-  path: Assets/Zombies/Zombie_BioHazardSuit_Male_01.prefab
-  artifactKey: Guid(cecba8cbb65991c42a1e7219f8210b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_BioHazardSuit_Male_01.prefab using Guid(cecba8cbb65991c42a1e7219f8210b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e57c36a9b8af3380ff498670969c42d') in 0.0613971 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 448
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.305802 seconds.
-  path: Assets/Zombies/Zombie_BioHazardSuit_Male_01.prefab
-  artifactKey: Guid(cecba8cbb65991c42a1e7219f8210b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_BioHazardSuit_Male_01.prefab using Guid(cecba8cbb65991c42a1e7219f8210b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba3d9e356c62d82c5c37f80110f742fe') in 0.0672857 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 456
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.760838 seconds.
-  path: Assets/Zombies/Zombie_Businessman_Male_01.prefab
-  artifactKey: Guid(0e2c74548f9e2284aa68e9dc8544219c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Businessman_Male_01.prefab using Guid(0e2c74548f9e2284aa68e9dc8544219c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aa6bee301d06a08561f6cdedd27ac95c') in 0.0615314 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 423
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.443633 seconds.
-  path: Assets/Zombies/Zombie_Businessman_Male_01.prefab
-  artifactKey: Guid(0e2c74548f9e2284aa68e9dc8544219c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Businessman_Male_01.prefab using Guid(0e2c74548f9e2284aa68e9dc8544219c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6dab983e2c22d5cfd41008686c8e06d0') in 0.0638295 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 432
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.466417 seconds.
-  path: Assets/Zombies/Zombie_Businessman_Male_01.prefab
-  artifactKey: Guid(0e2c74548f9e2284aa68e9dc8544219c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Businessman_Male_01.prefab using Guid(0e2c74548f9e2284aa68e9dc8544219c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '279547b491f3052620647e1d3c02f702') in 0.0643501 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 440
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.115159 seconds.
-  path: Assets/Zombies/Zombie_Businessman_Male_01.prefab
-  artifactKey: Guid(0e2c74548f9e2284aa68e9dc8544219c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Businessman_Male_01.prefab using Guid(0e2c74548f9e2284aa68e9dc8544219c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ebc7b303f073b8ae48f36f120688f939') in 0.0645942 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 448
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.150141 seconds.
-  path: Assets/Zombies/Zombie_Businessman_Male_01.prefab
-  artifactKey: Guid(0e2c74548f9e2284aa68e9dc8544219c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Businessman_Male_01.prefab using Guid(0e2c74548f9e2284aa68e9dc8544219c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f51b5e8711dba89eb4c6ee5c203e794') in 0.08031 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 456
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.163044 seconds.
-  path: Assets/Zombies/Zombie_Father_Male_01.prefab
-  artifactKey: Guid(08eb0c5855619374381691dec1799669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Father_Male_01.prefab using Guid(08eb0c5855619374381691dec1799669) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e5d6cbeb81e1f1e901e4c06ad4899ef') in 0.0612478 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 423
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.419163 seconds.
-  path: Assets/Zombies/Zombie_Father_Male_01.prefab
-  artifactKey: Guid(08eb0c5855619374381691dec1799669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Father_Male_01.prefab using Guid(08eb0c5855619374381691dec1799669) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '47024df88e5e15256639694c9bd34b7b') in 0.0625069 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 432
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.796623 seconds.
-  path: Assets/Zombies/Zombie_Father_Male_01.prefab
-  artifactKey: Guid(08eb0c5855619374381691dec1799669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Father_Male_01.prefab using Guid(08eb0c5855619374381691dec1799669) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '648da6000e232fa476f761e6d98eec3f') in 0.062457 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 440
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.785393 seconds.
-  path: Assets/Zombies/Zombie_Father_Male_01.prefab
-  artifactKey: Guid(08eb0c5855619374381691dec1799669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Father_Male_01.prefab using Guid(08eb0c5855619374381691dec1799669) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3cc9d499fa44f4e2c21c174b1f05e8e5') in 0.0652048 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 448
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.138899 seconds.
-  path: Assets/Zombies/Zombie_Father_Male_01.prefab
-  artifactKey: Guid(08eb0c5855619374381691dec1799669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Father_Male_01.prefab using Guid(08eb0c5855619374381691dec1799669) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1886b73163e8f85291430b2b4a13d5ad') in 0.0660723 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 456
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.883858 seconds.
-  path: Assets/Zombies/Zombie_Hipster_Male_01 1.prefab
-  artifactKey: Guid(435cbe246d91ddc4a8dc842ea84b5d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Hipster_Male_01 1.prefab using Guid(435cbe246d91ddc4a8dc842ea84b5d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '99679fbe8366bb8f05f036b17233cace') in 0.0640648 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 423
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.846487 seconds.
-  path: Assets/Zombies/Zombie_Hipster_Male_01 1.prefab
-  artifactKey: Guid(435cbe246d91ddc4a8dc842ea84b5d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Hipster_Male_01 1.prefab using Guid(435cbe246d91ddc4a8dc842ea84b5d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8bfcf8b5889f6447e4656dd026842290') in 0.0630381 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 432
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.113414 seconds.
-  path: Assets/Zombies/Zombie_Hipster_Male_01 1.prefab
-  artifactKey: Guid(435cbe246d91ddc4a8dc842ea84b5d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Hipster_Male_01 1.prefab using Guid(435cbe246d91ddc4a8dc842ea84b5d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7b481d836cca8f6826e045ce4b39b9f') in 0.0675739 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 440
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.550948 seconds.
-  path: Assets/Zombies/Zombie_Hipster_Male_01 1.prefab
-  artifactKey: Guid(435cbe246d91ddc4a8dc842ea84b5d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Hipster_Male_01 1.prefab using Guid(435cbe246d91ddc4a8dc842ea84b5d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eaa014d476dd572efeada4881a889f0b') in 0.0648944 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 448
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.341154 seconds.
-  path: Assets/Zombies/Zombie_Hipster_Male_01 1.prefab
-  artifactKey: Guid(435cbe246d91ddc4a8dc842ea84b5d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Hipster_Male_01 1.prefab using Guid(435cbe246d91ddc4a8dc842ea84b5d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73990ee0c70d70e7e4fef61c4453fda7') in 0.0681973 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 456
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.334900 seconds.
-  path: Assets/Zombies/Zombie_Mother_Female_02.prefab
-  artifactKey: Guid(307d9d29af4880045b27ca9862422012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Mother_Female_02.prefab using Guid(307d9d29af4880045b27ca9862422012) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0981fe9af8d709bd636f88c00a481f3c') in 0.0612949 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 423
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.457528 seconds.
-  path: Assets/Zombies/Zombie_Mother_Female_02.prefab
-  artifactKey: Guid(307d9d29af4880045b27ca9862422012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Mother_Female_02.prefab using Guid(307d9d29af4880045b27ca9862422012) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a4d39c137aec0bb767852438ff84ab7f') in 0.062698 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 432
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.899100 seconds.
-  path: Assets/Zombies/Zombie_Mother_Female_02.prefab
-  artifactKey: Guid(307d9d29af4880045b27ca9862422012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Mother_Female_02.prefab using Guid(307d9d29af4880045b27ca9862422012) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'afdd7ad0bf51243517985f17419e7e12') in 0.062376 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 440
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.022105 seconds.
-  path: Assets/Zombies/Zombie_Mother_Female_02.prefab
-  artifactKey: Guid(307d9d29af4880045b27ca9862422012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Mother_Female_02.prefab using Guid(307d9d29af4880045b27ca9862422012) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3523794825780c301916d935b46307b7') in 0.0631907 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 448
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.893708 seconds.
-  path: Assets/Zombies/Zombie_Mother_Female_02.prefab
-  artifactKey: Guid(307d9d29af4880045b27ca9862422012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Mother_Female_02.prefab using Guid(307d9d29af4880045b27ca9862422012) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78bddbfe5f49e74f3d428b649b97af29') in 0.0663514 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 456
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.424067 seconds.
-  path: Assets/Zombies/Zombie_Paramedic_Female_01.prefab
-  artifactKey: Guid(8d862076c59fabf43b7ca2084f63226f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Paramedic_Female_01.prefab using Guid(8d862076c59fabf43b7ca2084f63226f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73d11c0961f53217546bbc6c9cb1278b') in 0.0630738 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 423
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.209778 seconds.
-  path: Assets/Zombies/Zombie_Paramedic_Female_01.prefab
-  artifactKey: Guid(8d862076c59fabf43b7ca2084f63226f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Paramedic_Female_01.prefab using Guid(8d862076c59fabf43b7ca2084f63226f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f038248f07142f17b8b2a8c53220991') in 0.0696613 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 432
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.475937 seconds.
-  path: Assets/Zombies/Zombie_Paramedic_Female_01.prefab
-  artifactKey: Guid(8d862076c59fabf43b7ca2084f63226f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Paramedic_Female_01.prefab using Guid(8d862076c59fabf43b7ca2084f63226f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d241359def97d0ad3b0b3d2217d5be5') in 0.0639209 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 440
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.727793 seconds.
-  path: Assets/Zombies/Zombie_Paramedic_Female_01.prefab
-  artifactKey: Guid(8d862076c59fabf43b7ca2084f63226f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Paramedic_Female_01.prefab using Guid(8d862076c59fabf43b7ca2084f63226f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d671f20d88b40d89ea0a43a4b111047') in 0.0675902 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 448
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.686499 seconds.
-  path: Assets/Zombies/Zombie_Paramedic_Female_01.prefab
-  artifactKey: Guid(8d862076c59fabf43b7ca2084f63226f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Paramedic_Female_01.prefab using Guid(8d862076c59fabf43b7ca2084f63226f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f5bf44782b2639e0e22fe552e2663331') in 0.0784484 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 456
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.364180 seconds.
-  path: Assets/Zombies/Zombie_Police_Female_01.prefab
-  artifactKey: Guid(3ba6740ea34059446b2030cb1cee74bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Police_Female_01.prefab using Guid(3ba6740ea34059446b2030cb1cee74bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '745ade9b52f4300d6bc3c315dd7c9295') in 0.0641549 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 423
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.521515 seconds.
-  path: Assets/Zombies/Zombie_Police_Female_01.prefab
-  artifactKey: Guid(3ba6740ea34059446b2030cb1cee74bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Police_Female_01.prefab using Guid(3ba6740ea34059446b2030cb1cee74bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c7bac30e9a81790203d3e07c22d57d71') in 0.0619451 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 432
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.903922 seconds.
-  path: Assets/Zombies/Zombie_Police_Female_01.prefab
-  artifactKey: Guid(3ba6740ea34059446b2030cb1cee74bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Police_Female_01.prefab using Guid(3ba6740ea34059446b2030cb1cee74bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41c77f3a810683570f4851eb759fb94d') in 0.0665799 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 440
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.811784 seconds.
-  path: Assets/Zombies/Zombie_Police_Female_01.prefab
-  artifactKey: Guid(3ba6740ea34059446b2030cb1cee74bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Police_Female_01.prefab using Guid(3ba6740ea34059446b2030cb1cee74bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '321e705ba96a6e257d08c4e0bffefe65') in 0.0672277 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 448
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.161312 seconds.
-  path: Assets/Zombies/Zombie_Police_Female_01.prefab
-  artifactKey: Guid(3ba6740ea34059446b2030cb1cee74bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Police_Female_01.prefab using Guid(3ba6740ea34059446b2030cb1cee74bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'adad308df91a21e00f0ebee56a7d0228') in 0.0652468 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 456
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.617688 seconds.
-  path: Assets/Zombies/Zombie_Police_Male_01.prefab
-  artifactKey: Guid(ea757c1578e17134b85ac65be02c4b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Police_Male_01.prefab using Guid(ea757c1578e17134b85ac65be02c4b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e98573079f21833a3c532de55803a71e') in 0.0619946 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 423
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.228160 seconds.
-  path: Assets/Zombies/Zombie_Police_Male_01.prefab
-  artifactKey: Guid(ea757c1578e17134b85ac65be02c4b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Police_Male_01.prefab using Guid(ea757c1578e17134b85ac65be02c4b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '094f7105b1f7b9f842c8fb2335234d4e') in 0.0629642 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 432
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.461212 seconds.
-  path: Assets/Zombies/Zombie_Police_Male_01.prefab
-  artifactKey: Guid(ea757c1578e17134b85ac65be02c4b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Police_Male_01.prefab using Guid(ea757c1578e17134b85ac65be02c4b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '217cc6bb3f6a2ed084ac45ad2fa327b7') in 0.0632759 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 440
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.723973 seconds.
-  path: Assets/Zombies/Zombie_Police_Male_01.prefab
-  artifactKey: Guid(ea757c1578e17134b85ac65be02c4b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Police_Male_01.prefab using Guid(ea757c1578e17134b85ac65be02c4b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f1c3506761c2e841d4c367c500e1598') in 0.0637364 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 448
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.118632 seconds.
-  path: Assets/Zombies/Zombie_Police_Male_01.prefab
-  artifactKey: Guid(ea757c1578e17134b85ac65be02c4b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_Police_Male_01.prefab using Guid(ea757c1578e17134b85ac65be02c4b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d876c5c47e47e38aacf5b69f0bdcc6e') in 0.065056 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 456
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.592170 seconds.
-  path: Assets/Zombies/Zombie_SchoolGirl_Female_01.prefab
-  artifactKey: Guid(b7a521fe7dabb734a87b288a49e9b68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_SchoolGirl_Female_01.prefab using Guid(b7a521fe7dabb734a87b288a49e9b68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c1b1cb589b71b40f6be4ef06330b900f') in 0.067888 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 423
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.459889 seconds.
-  path: Assets/Zombies/Zombie_SchoolGirl_Female_01.prefab
-  artifactKey: Guid(b7a521fe7dabb734a87b288a49e9b68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_SchoolGirl_Female_01.prefab using Guid(b7a521fe7dabb734a87b288a49e9b68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4158385e22a52a303c3fb69f42a0a463') in 0.06266 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 432
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.937865 seconds.
-  path: Assets/Zombies/Zombie_SchoolGirl_Female_01.prefab
-  artifactKey: Guid(b7a521fe7dabb734a87b288a49e9b68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_SchoolGirl_Female_01.prefab using Guid(b7a521fe7dabb734a87b288a49e9b68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd37f1412c9906a2cd07306aa29e9fc20') in 0.0654377 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 440
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.531385 seconds.
-  path: Assets/Zombies/Zombie_SchoolGirl_Female_01.prefab
-  artifactKey: Guid(b7a521fe7dabb734a87b288a49e9b68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_SchoolGirl_Female_01.prefab using Guid(b7a521fe7dabb734a87b288a49e9b68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '98549ad459a67256abf6c236281a24bb') in 0.0651816 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 448
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.781299 seconds.
-  path: Assets/Zombies/Zombie_SchoolGirl_Female_01.prefab
-  artifactKey: Guid(b7a521fe7dabb734a87b288a49e9b68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie_SchoolGirl_Female_01.prefab using Guid(b7a521fe7dabb734a87b288a49e9b68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a9dbfe0ea64c4512eda2e38af29a2d5') in 0.063056 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 456
-
+  path: Assets/Asset Store Packages/Raptor3D/MSH_N2/Scenes/Scene_Texture/Texture_Variants.png
+  artifactKey: Guid(36056431383270e46ab2c703b6924947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store Packages/Raptor3D/MSH_N2/Scenes/Scene_Texture/Texture_Variants.png using Guid(36056431383270e46ab2c703b6924947) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c5fd744e18638f33dce887ef04a9e08') in 0.0152305 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 90.548840 seconds.
+  path: Assets/Scripts/Managers
+  artifactKey: Guid(80f02a7b56af45349813f4c72e41c0df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Managers using Guid(80f02a7b56af45349813f4c72e41c0df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5360401eea9bc987efa8afd82870dad') in 0.0012359 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5506 unused Assets / (5.0 MB). Loaded Objects now: 6233.
+Memory consumption went from 149.7 MB to 144.7 MB.
+Total: 16.260500 ms (FindLiveObjects: 1.474300 ms CreateObjectMapping: 1.146800 ms MarkObjects: 9.508300 ms  DeleteObjects: 4.129300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 15.901927 seconds.
+  path: Assets/Scripts/Managers/PauseManager.cs
+  artifactKey: Guid(464c5dbb0751d8240a5093711f62f143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Managers/PauseManager.cs using Guid(464c5dbb0751d8240a5093711f62f143) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '223f4021907b8e69c42205231b9afcae') in 0.0111435 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.326 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.691 seconds
+Domain Reload Profiling: 4025ms
+	BeginReloadAssembly (527ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (31ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (2ms)
+		CreateAndSetChildDomain (184ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (1692ms)
+		LoadAssemblies (1166ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (700ms)
+			TypeCache.Refresh (57ms)
+				TypeCache.ScanAssembly (4ms)
+			BuildScriptInfoCaches (587ms)
+			ResolveRequiredComponents (26ms)
+	FinalizeReload (1693ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1337ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (126ms)
+			ProcessInitializeOnLoadAttributes (1081ms)
+			ProcessInitializeOnLoadMethodAttributes (85ms)
+			AfterProcessingInitializeOnLoad (25ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (27ms)
+Refreshing native plugins compatible for Editor in 2.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5511 unused Assets / (5.1 MB). Loaded Objects now: 6235.
+Memory consumption went from 149.1 MB to 144.1 MB.
+Total: 30.454800 ms (FindLiveObjects: 1.390600 ms CreateObjectMapping: 0.893500 ms MarkObjects: 19.668000 ms  DeleteObjects: 8.497500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 19.858613 seconds.
+  path: Assets/Scripts/Managers/PauseManager.cs
+  artifactKey: Guid(464c5dbb0751d8240a5093711f62f143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Managers/PauseManager.cs using Guid(464c5dbb0751d8240a5093711f62f143) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6871d6ed444eda2f3fa52fb5b34004ca') in 0.2602046 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  3.919 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.144 seconds
+Domain Reload Profiling: 5061ms
+	BeginReloadAssembly (1531ms)
+		ExecutionOrderSort (7ms)
+		DisableScriptedObjects (196ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (12ms)
+		CreateAndSetChildDomain (529ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (2268ms)
+		LoadAssemblies (1893ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (627ms)
+			TypeCache.Refresh (132ms)
+				TypeCache.ScanAssembly (6ms)
+			BuildScriptInfoCaches (472ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1145ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (833ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (96ms)
+			ProcessInitializeOnLoadAttributes (640ms)
+			ProcessInitializeOnLoadMethodAttributes (72ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 1.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5511 unused Assets / (5.6 MB). Loaded Objects now: 6238.
+Memory consumption went from 149.2 MB to 143.5 MB.
+Total: 16.662300 ms (FindLiveObjects: 1.065200 ms CreateObjectMapping: 1.043200 ms MarkObjects: 7.515900 ms  DeleteObjects: 7.033600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 63.011720 seconds.
+  path: Assets/Scripts/Managers/PauseManager.cs
+  artifactKey: Guid(464c5dbb0751d8240a5093711f62f143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Managers/PauseManager.cs using Guid(464c5dbb0751d8240a5093711f62f143) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e75f8dbcf687bb3f990b3e04df65aad') in 0.1020295 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.842 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.391 seconds
+Domain Reload Profiling: 4232ms
+	BeginReloadAssembly (1076ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (74ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (4ms)
+		CreateAndSetChildDomain (273ms)
+	RebuildCommonClasses (79ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (1604ms)
+		LoadAssemblies (1600ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (422ms)
+			TypeCache.Refresh (28ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (370ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1392ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1087ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (108ms)
+			ProcessInitializeOnLoadAttributes (839ms)
+			ProcessInitializeOnLoadMethodAttributes (105ms)
+			AfterProcessingInitializeOnLoad (19ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (28ms)
+Refreshing native plugins compatible for Editor in 1.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5511 unused Assets / (4.5 MB). Loaded Objects now: 6241.
+Memory consumption went from 149.2 MB to 144.6 MB.
+Total: 12.648900 ms (FindLiveObjects: 0.829500 ms CreateObjectMapping: 0.621100 ms MarkObjects: 6.149700 ms  DeleteObjects: 5.047000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.432 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.60 ms, found 2 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.099 seconds
+Domain Reload Profiling: 2527ms
+	BeginReloadAssembly (417ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (162ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (898ms)
+		LoadAssemblies (760ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (293ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (265ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1100ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (853ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (93ms)
+			ProcessInitializeOnLoadAttributes (658ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5511 unused Assets / (3.9 MB). Loaded Objects now: 6244.
+Memory consumption went from 149.2 MB to 145.2 MB.
+Total: 14.926500 ms (FindLiveObjects: 2.639800 ms CreateObjectMapping: 0.807700 ms MarkObjects: 7.182400 ms  DeleteObjects: 4.293100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  3.602 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.32 ms, found 2 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.183 seconds
+Domain Reload Profiling: 4819ms
+	BeginReloadAssembly (2021ms)
+		ExecutionOrderSort (1ms)
+		DisableScriptedObjects (129ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (4ms)
+		CreateAndSetChildDomain (973ms)
+	RebuildCommonClasses (126ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (87ms)
+	LoadAllAssembliesAndSetupDomain (1373ms)
+		LoadAssemblies (1571ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (350ms)
+			TypeCache.Refresh (35ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (291ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1184ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (919ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (129ms)
+			ProcessInitializeOnLoadAttributes (698ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Refreshing native plugins compatible for Editor in 1.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5511 unused Assets / (5.6 MB). Loaded Objects now: 6247.
+Memory consumption went from 149.2 MB to 143.5 MB.
+Total: 13.790800 ms (FindLiveObjects: 0.852400 ms CreateObjectMapping: 0.818300 ms MarkObjects: 7.790900 ms  DeleteObjects: 4.325900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.096 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.04 ms, found 2 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Centennial\PractGameDesing\COMP394Game\Last Stand Undead\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <ed969b0e627d471da4848289f9c322df>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <ed969b0e627d471da4848289f9c322df>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <ed969b0e627d471da4848289f9c322df>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <ed969b0e627d471da4848289f9c322df>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
+  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <ed969b0e627d471da4848289f9c322df>:0 
+  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <20f98a04ac634cc8bf5f95425bb19bb9>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
+UnityEditor.Tools:set_lockedLayers (int)
+UnityEditor.Tools:OnEnable ()
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.174 seconds
+Domain Reload Profiling: 2267ms
+	BeginReloadAssembly (287ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (67ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (694ms)
+		LoadAssemblies (571ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (271ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (240ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1174ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (885ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (101ms)
+			ProcessInitializeOnLoadAttributes (690ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (29ms)
+Refreshing native plugins compatible for Editor in 1.21 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5511 unused Assets / (5.6 MB). Loaded Objects now: 6250.
+Memory consumption went from 149.2 MB to 143.6 MB.
+Total: 13.291900 ms (FindLiveObjects: 0.970900 ms CreateObjectMapping: 0.843000 ms MarkObjects: 6.835000 ms  DeleteObjects: 4.640500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  3.943 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Error loading file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Centennial\PractGameDesing\COMP394Game\Last Stand Undead\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <ed969b0e627d471da4848289f9c322df>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <ed969b0e627d471da4848289f9c322df>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00055] in <ed969b0e627d471da4848289f9c322df>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks) [0x00000] in <ed969b0e627d471da4848289f9c322df>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string,System.Text.Encoding,bool)
+  at System.IO.File.InternalReadAllText (System.String path, System.Text.Encoding encoding) [0x00000] in <ed969b0e627d471da4848289f9c322df>:0 
+  at System.IO.File.ReadAllText (System.String path, System.Text.Encoding encoding) [0x00034] in <ed969b0e627d471da4848289f9c322df>:0 
+  at UnityEditor.StateCache`1[T].GetState (UnityEngine.Hash128 key, T defaultValue) [0x00041] in <20f98a04ac634cc8bf5f95425bb19bb9>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:GetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
+UnityEditor.Tools:OnEnable ()
+UnityEngine.ScriptableObject:CreateScriptableObjectInstanceFromType (System.Type,bool)
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
+UnityEditor.Tools:get_get ()
+UnityEditor.Tools:get_visibleLayers ()
+UnityEditor.Animations.Rigging.BoneRendererUtils:.cctor () (at ./Library/PackageCache/com.unity.animation.rigging/Editor/Utils/BoneRendererUtils.cs:121)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.unity.animation.rigging/Editor/Utils/BoneRendererUtils.cs Line: 121)
+
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.209 seconds
+Domain Reload Profiling: 5163ms
+	BeginReloadAssembly (2060ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (157ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (2ms)
+		CreateAndSetChildDomain (1085ms)
+	RebuildCommonClasses (59ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (1766ms)
+		LoadAssemblies (1532ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (703ms)
+			TypeCache.Refresh (155ms)
+				TypeCache.ScanAssembly (4ms)
+			BuildScriptInfoCaches (505ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (1210ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (927ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (122ms)
+			ProcessInitializeOnLoadAttributes (700ms)
+			ProcessInitializeOnLoadMethodAttributes (74ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (28ms)
+Refreshing native plugins compatible for Editor in 1.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5511 unused Assets / (4.9 MB). Loaded Objects now: 6253.
+Memory consumption went from 149.2 MB to 144.3 MB.
+Total: 16.445000 ms (FindLiveObjects: 1.158600 ms CreateObjectMapping: 0.950200 ms MarkObjects: 10.082600 ms  DeleteObjects: 4.250100 ms)
+
+Prepare: number of updated asset objects reloaded= 1
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.114 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.86 ms, found 2 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.154 seconds
+Domain Reload Profiling: 2264ms
+	BeginReloadAssembly (282ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (71ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (699ms)
+		LoadAssemblies (577ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (273ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (233ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (1155ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (895ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (101ms)
+			ProcessInitializeOnLoadAttributes (696ms)
+			ProcessInitializeOnLoadMethodAttributes (75ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Refreshing native plugins compatible for Editor in 1.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5511 unused Assets / (4.9 MB). Loaded Objects now: 6256.
+Memory consumption went from 149.2 MB to 144.3 MB.
+Total: 12.404700 ms (FindLiveObjects: 0.835300 ms CreateObjectMapping: 0.723900 ms MarkObjects: 7.040200 ms  DeleteObjects: 3.803000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
