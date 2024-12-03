@@ -1778,7 +1778,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -1865,7 +1865,7 @@ MonoBehaviour:
   - {fileID: 2493840364990635728, guid: a03cd5ea56dbc044ead13895eca6749f, type: 3}
   _PowerUpEvents:
   - EventName: SpawnPowerUp
-    DropChance: 0.4
+    DropChance: 0.07
     PowerUpEvent:
       m_PersistentCalls:
         m_Calls:

@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< Updated upstream
-- path: Assets/Scenes/Testing Scene.unity
-=======
-- path: Assets/Scenes/Title.unity
->>>>>>> Stashed changes
+- path: Assets/Scenes/Last Stand Undead.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

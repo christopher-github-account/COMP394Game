@@ -2807,7 +2807,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -2886,8 +2886,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5fac5b722805654d9f46c97b835f880, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemList: []
-  _PowerUpEvents: []
+  itemList:
+  - {fileID: 8697549944748559688, guid: 053432757c6e4e146b5690d206887180, type: 3}
+  - {fileID: 2219516473597977274, guid: 017b64542bde8014899b2c6f4e6a4d2c, type: 3}
+  - {fileID: 1901095524244508959, guid: d8f56cbcb1ea23c46af4866567074436, type: 3}
+  - {fileID: 3822640536892206619, guid: 8f7aa2d0eb19d044ca615370d4bcaf7c, type: 3}
+  - {fileID: 2493840364990635728, guid: a03cd5ea56dbc044ead13895eca6749f, type: 3}
+  _PowerUpEvents:
+  - EventName: SpawnPowerUp
+    DropChance: 0.07
+    PowerUpEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: -1622337334064222756}
+          m_TargetAssemblyTypeName: ItemDrop, Assembly-CSharp
+          m_MethodName: DropItem
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1380329772829304
 GameObject:
   m_ObjectHideFlags: 0
