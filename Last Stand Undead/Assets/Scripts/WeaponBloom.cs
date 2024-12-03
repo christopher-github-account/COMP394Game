@@ -11,7 +11,7 @@ public class WeaponBloom : MonoBehaviour
     MovementStateManager movement;
     AimStateManager aiming;
 
-    float currentBloom;
+    [HideInInspector] public float currentBloom;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

@@ -790,7 +790,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8075899122753935432, guid: 6cb63163261c5a84a8a7410cf0775135, type: 3}
       propertyPath: m_Mass
-      value: 1
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: -8075899122753935432, guid: 6cb63163261c5a84a8a7410cf0775135, type: 3}
       propertyPath: m_CollisionDetection
@@ -1147,6 +1147,22 @@ PrefabInstance:
       propertyPath: bulletVelocity
       value: 100
       objectReference: {fileID: 0}
+    - target: {fileID: 2074125727653791528, guid: f0753373ef86d364980978166625e053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2212715724597845863, guid: f0753373ef86d364980978166625e053, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578935763180084338, guid: f0753373ef86d364980978166625e053, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5261674445743885679, guid: f0753373ef86d364980978166625e053, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5581130859637666041, guid: f0753373ef86d364980978166625e053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1186,6 +1202,18 @@ PrefabInstance:
     - target: {fileID: 5581130859637666041, guid: f0753373ef86d364980978166625e053, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5836204680439671587, guid: f0753373ef86d364980978166625e053, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042670416447491991, guid: f0753373ef86d364980978166625e053, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7859771964083750240, guid: f0753373ef86d364980978166625e053, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8187897317106046141, guid: f0753373ef86d364980978166625e053, type: 3}
       propertyPath: m_Name

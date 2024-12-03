@@ -10,8 +10,11 @@ public class WeaponClassManager : MonoBehaviour
     public WeaponManager[] weapons;
     int currentWeaponIndex;
 
+    [SerializeField] CrosshairManager crosshairManager;
+
     private void Awake()
     {
+        crosshairManager = GetComponent<CrosshairManager>();
         currentWeaponIndex = 0;
         for (int i = 0; i < weapons.Length; i++)
         {
@@ -26,6 +29,7 @@ public class WeaponClassManager : MonoBehaviour
         LeftHandIK.data.target = weapon.leftHandTarget;
         LeftHandIK.data.hint = weapon.leftHandHint;
         actions.SetWeapon(weapon);
+        crosshairManager.SetCrosshair(weapon.GetComponent<WeaponBloom>());
     }
 
     public void ChangeWeapon(float direction)
