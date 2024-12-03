@@ -8,6 +8,7 @@ TagManager:
   - KillsTracker
   - HUD
   - Enemy
+  - Bullet
   layers:
   - Default
   - TransparentFX

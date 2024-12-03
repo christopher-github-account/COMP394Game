@@ -788,6 +788,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8075899122753935432, guid: 6cb63163261c5a84a8a7410cf0775135, type: 3}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8075899122753935432, guid: 6cb63163261c5a84a8a7410cf0775135, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8075899122753935432, guid: 6cb63163261c5a84a8a7410cf0775135, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -355987666120763674, guid: 6cb63163261c5a84a8a7410cf0775135, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -355987666120763674, guid: 6cb63163261c5a84a8a7410cf0775135, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1164828658887116, guid: 6cb63163261c5a84a8a7410cf0775135, type: 3}
       propertyPath: m_Name
       value: Zombie_Biker_Male_01
@@ -1119,6 +1139,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1365641349567761522, guid: f0753373ef86d364980978166625e053, type: 3}
+      propertyPath: bulletVelocity
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 2042381670465675163, guid: f0753373ef86d364980978166625e053, type: 3}
+      propertyPath: bulletVelocity
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 5581130859637666041, guid: f0753373ef86d364980978166625e053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

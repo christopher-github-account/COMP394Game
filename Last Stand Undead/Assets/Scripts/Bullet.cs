@@ -13,9 +13,12 @@ public class Bullet : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.collider.gameObject.tag == "Enemy") 
+        Debug.Log("Hit");
+        if (collision.gameObject.tag == "Enemy")
         {
+            Debug.Log("Enemy");
             collision.gameObject.GetComponent<EnemyHealth>().TakeDamage(weapon.damage);
         }
+        Destroy(gameObject);
     }
 }
