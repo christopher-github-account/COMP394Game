@@ -13,11 +13,13 @@ public class WeaponManager : MonoBehaviour
     [SerializeField] Transform barrelPosition;
     [SerializeField] float bulletVelocity;
     [SerializeField] int bulletsPerShot;
+    public float damage = 20;
     AimStateManager aim;
 
     [SerializeField] AudioClip gunShot;
-    AudioSource audioSource;
-    WeaponAmmo ammo;
+    [HideInInspector] public AudioSource audioSource;
+    [HideInInspector] public WeaponAmmo ammo;
+    WeaponBloom bloom;
     ActionStateManager actions;
     WeaponRecoil recoil;
 
@@ -26,12 +28,12 @@ public class WeaponManager : MonoBehaviour
     float lightIntensity;
     [SerializeField] float lightReturnSpeed = 20f;
 
+    public Transform leftHandTarget, leftHandHint;
+    WeaponClassManager weaponClass;
+
     void Start()
     {
-        audioSource = GetComponent<AudioSource>();
-        aim = GetComponentInParent<AimStateManager>();
-        recoil = GetComponent<WeaponRecoil>();
-        ammo = GetComponent<WeaponAmmo>();
+        bloom = GetComponent<WeaponBloom>();
         actions = GetComponentInParent<ActionStateManager>();
         muzzleFlashLight = GetComponentInChildren<Light>();
         lightIntensity = muzzleFlashLight.intensity;
@@ -40,10 +42,24 @@ public class WeaponManager : MonoBehaviour
         fireRateTimer = fireRate;
     }
 
+    private void OnEnable()
+    {
+        if (weaponClass == null)
+        {
+            weaponClass = GetComponentInParent<WeaponClassManager>();
+            recoil = GetComponent<WeaponRecoil>();
+            audioSource = GetComponent<AudioSource>();
+            aim = GetComponentInParent<AimStateManager>();
+            ammo = GetComponent<WeaponAmmo>();
+            recoil.recoilFollowPosition = weaponClass.recoilFollowPos;
+        }
+        weaponClass.SetCurrentWeapon(this);
+    }
+
     void Update()
     {
-        if (ShouldFire()) 
-        { 
+        if (ShouldFire())
+        {
             Fire();
             //Debug.Log(ammo.currentAmmo);
         }
@@ -55,7 +71,8 @@ public class WeaponManager : MonoBehaviour
         fireRateTimer += Time.deltaTime;
         if (fireRateTimer < fireRate) { return false; }
         if (ammo.currentAmmo == 0) { return false; }
-        if (actions.currentState == actions.Reload) {  return false; }
+        if (actions.currentState == actions.Reload) { return false; }
+        if (actions.currentState == actions.Swap) { return false; }
         if (semiAuto && Input.GetKeyDown(KeyCode.Mouse0)) { return true; }
         if (!semiAuto && Input.GetKey(KeyCode.Mouse0)) { return true; }
         return false;
@@ -64,15 +81,23 @@ public class WeaponManager : MonoBehaviour
     void Fire()
     {
         fireRateTimer = 0;
+        ammo.currentAmmo--;
         //Debug.Log("Fire");
+
         barrelPosition.LookAt(aim.aimPosition);
+        barrelPosition.localEulerAngles = bloom.BloomAngle(barrelPosition);
+
         audioSource.PlayOneShot(gunShot);
         recoil.TriggerRecoil();
         TriggerMuzzleFlash();
-        ammo.currentAmmo--;
+
         for (int i = 0; i < bulletsPerShot; i++)
         {
             GameObject currentBullet = Instantiate(bullet, barrelPosition.position, barrelPosition.rotation);
+
+            Bullet bulletScript = currentBullet.GetComponent<Bullet>();
+            bulletScript.weapon = this;
+
             Rigidbody bulletRigidBody = currentBullet.GetComponent<Rigidbody>();
             bulletRigidBody.AddForce(barrelPosition.forward * bulletVelocity, ForceMode.Impulse);
         }

@@ -11,6 +11,6 @@ public class ReloadState : ActionBaseState
 
     public override void UpdateState(ActionStateManager actions)
     {
-        
+
     }
 }

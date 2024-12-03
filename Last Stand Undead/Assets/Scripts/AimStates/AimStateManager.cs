@@ -1,9 +1,10 @@
 using Unity.Cinemachine;
 using UnityEngine;
+using UnityEngine.Animations.Rigging;
 
 public class AimStateManager : MonoBehaviour
 {
-    AimBaseState currentState;
+    public AimBaseState currentState;
     public HipfireState Hipfire = new HipfireState();
     public AimState Aim = new AimState();
 
@@ -19,15 +20,47 @@ public class AimStateManager : MonoBehaviour
     [HideInInspector] public float currentFOV;
     public float fovSmoothSpeed = 10;
 
-    public Transform aimPosition;
+    [HideInInspector] public Transform aimPosition;
     [HideInInspector] public Vector3 actualAimPosition;
     [SerializeField] float aimSmoothSpeed = 20;
     [SerializeField] LayerMask aimMask;
+
+    float xFollowPosition;
+    float yFollowPosition, ogYPosition;
+    [SerializeField] float crouchCamHeight = 0.6f;
+    [SerializeField] float shoulderSwapSpeed = 10;
+    MovementStateManager moving;
+
+    MultiAimConstraint[] multiAims;
+    WeightedTransform aimPositionWeightedTransform;
+
+    private void Awake()
+    {
+        aimPosition = new GameObject().transform;
+        aimPosition.name = "AimPosition";
+        aimPositionWeightedTransform.transform = aimPosition;
+        aimPositionWeightedTransform.weight = 1;
+
+        multiAims = GetComponentsInChildren<MultiAimConstraint>();
+
+        foreach (MultiAimConstraint constraint in multiAims)
+        {
+            var data = constraint.data.sourceObjects;
+            data.Clear();
+            data.Add(aimPositionWeightedTransform);
+            constraint.data.sourceObjects = data;
+        }
+    }
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        moving = GetComponent<MovementStateManager>();
+        xFollowPosition = camFollowPos.localPosition.x;
+        ogYPosition = camFollowPos.localPosition.y;
+        yFollowPosition = ogYPosition;
+
         camera = GetComponentInChildren<CinemachineVirtualCamera>();
         hipFOV = camera.m_Lens.FieldOfView;
 
@@ -58,6 +91,8 @@ public class AimStateManager : MonoBehaviour
             actualAimPosition = hit.point;
         }
 
+        MoveCamera();
+
         currentState.UpdateState(this);
     }
 
@@ -71,5 +106,15 @@ public class AimStateManager : MonoBehaviour
     {
         currentState = state;
         currentState.EnterState(this);
+    }
+
+    void MoveCamera()
+    {
+        if (Input.GetKeyDown(KeyCode.LeftAlt)) { xFollowPosition = -xFollowPosition; }
+        if (moving.currentState == moving.Crouch) { yFollowPosition = crouchCamHeight; }
+        else { yFollowPosition = ogYPosition; }
+
+        Vector3 newFollowPosition = new Vector3(xFollowPosition, yFollowPosition, camFollowPos.localPosition.z);
+        camFollowPos.localPosition = Vector3.Lerp(camFollowPos.localPosition, newFollowPosition, shoulderSwapSpeed * Time.deltaTime);
     }
 }
