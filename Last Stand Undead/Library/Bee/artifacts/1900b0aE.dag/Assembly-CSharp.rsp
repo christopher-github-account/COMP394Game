@@ -448,6 +448,7 @@
 "Assets/Scripts/AimStates/States/HipfireState.cs"
 "Assets/Scripts/Bullet.cs"
 "Assets/Scripts/CameraMovement.cs"
+"Assets/Scripts/CrosshairManager.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/GraphPlotter.cs"
 "Assets/Scripts/MovementStates/MovementBaseState.cs"
