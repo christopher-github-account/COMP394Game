@@ -5,26 +5,22 @@ public class KillsTracker : MonoBehaviour
 {
     public TMP_Text textKillsCount;
 
-    private int kills;
-    private bool isKills = false;
+    public int EnemiesKilledCount;
 
     void Start()
     {
-        isKills = true;
+        EnemiesKilledCount = 0;
     }
 
-    void DisplayKills()
-    {
-        textKillsCount.text = string.Format("{0}", kills);
-    }
 
     void Update()
     {
-        if(isKills)
-        {
-            GameObject.FindGameObjectWithTag("Enemy").GetComponent<EnemyWaveTracker>().enemiesKilled = kills;
-            DisplayKills();
-        }
+        DisplayKills();
         
+    }
+
+        void DisplayKills()
+    {
+        textKillsCount.text = string.Format("{0}", EnemiesKilledCount);
     }
 }

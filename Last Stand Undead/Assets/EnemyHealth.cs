@@ -26,7 +26,12 @@ public class EnemyHealth : MonoBehaviour
         if(currentHealth <= 0)
         {
             Destroy(gameObject);
-            enemyIsDead = true;
         }
+    }
+
+    void OnDestroy()
+    {
+            GameObject.FindGameObjectWithTag("HUD").GetComponent<KillsTracker>().EnemiesKilledCount++; 
+            enemyIsDead = true;
     }
 }
